@@ -8,8 +8,8 @@
 
 import Foundation
 
-let nums = [2, 7 , 9 , 13]
-let target = 9
+let nums = [0,0,3,4]
+let target = 0
 var ans:[Int] = []
 
 let solution = Solution()
