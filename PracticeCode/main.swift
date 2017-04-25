@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+let nums = [2, 7 , 9 , 13]
+let target = 9
+var ans:[Int] = []
 
+let solution = Solution()
+ans = solution.twoSum(nums, target)
+
+print(ans)
