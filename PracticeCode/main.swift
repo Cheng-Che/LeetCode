@@ -8,11 +8,11 @@
 
 import Foundation
 
-let nums = [0,0,3,4]
+let nums = [5,4,3,2]
 let target = 0
-var ans:[Int] = []
+var ans = 0
 
-let solution = Solution()
-ans = solution.twoSum(nums, target)
+let solution = SearchInsert()
+ans = solution.searchInsert(nums, target)
 
 print(ans)
