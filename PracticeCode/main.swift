@@ -5,14 +5,12 @@
 //  Created by ccHsieh on 2017/4/24.
 //  Copyright © 2017年 ccHsieh. All rights reserved.
 //
-
 import Foundation
 
-let nums = [5,4,3,2]
-let target = 0
-var ans = 0
+let n = 5
 
-let solution = SearchInsert()
-ans = solution.searchInsert(nums, target)
 
-print(ans)
+let solution = CountAndSay()
+let s:String = solution.countAndSay(n)
+
+print(s)

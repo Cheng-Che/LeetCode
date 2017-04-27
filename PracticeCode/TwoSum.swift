@@ -32,8 +32,6 @@ class Solution {
             }
         }
 
-        print(simpleNums)
-        print(indexArray)
         for i in 0..<simpleNums.count{
             var temp = target
             var ans:[Int] = []

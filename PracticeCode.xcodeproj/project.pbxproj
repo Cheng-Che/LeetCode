@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
+		1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */; };
 		1EB909A81EAF2C7900A43CE1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */; };
 		1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countAndSay.swift; sourceTree = "<group>"; };
 		1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				1E3678AB1EADE1E6001EB9BF /* main.swift */,
 				1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */,
 				1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */,
+				1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB909A81EAF2C7900A43CE1 /* TwoSum.swift in Sources */,
+				1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
 			);
