@@ -7,16 +7,11 @@
 //
 import Foundation
 
-var n = [1,1,2, 3, 3, 5,7,7,7,7,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10]
+var input = "qqfhtlwelfkfobk"
+var target = "qh"
 
-
-let solution = RemoveDuplicate()
-let index:Int = solution.removeDuplicates(&n)
-var ans:[Int] = []
-
-for i in 0..<index{
-    ans.append(n[i])
-}
+let solution = StrStr()
+let ans = solution.strStr(input, target)
 
 
 print(ans)
