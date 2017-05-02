@@ -7,11 +7,11 @@
 //
 import Foundation
 
-var input = "qqfhtlwelfkfobk"
-var target = "qh"
-
-let solution = StrStr()
-let ans = solution.strStr(input, target)
+var input = [0,1,0,3,12, 5, 0, 12, 18, 22]
 
 
-print(ans)
+let solution = MoveZeros()
+let _ = solution.moveZeroes(&input)
+//
+//
+//print(ans)
