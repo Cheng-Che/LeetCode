@@ -21,3 +21,8 @@ For example,
 Given input array nums = [1,1,2],
 
 Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.
+
+
+## Implement strStr()
+
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
