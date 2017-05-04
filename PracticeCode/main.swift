@@ -7,11 +7,12 @@
 //
 import Foundation
 
-var input = [0,1,0,3,12, 5, 0, 12, 18, 22]
+var inputA = 0
+var inputB = -3
 
 
-let solution = MoveZeros()
-let _ = solution.moveZeroes(&input)
+let solution = SumTwoInt()
+let ans = solution.getSum(inputA, inputB)
 //
 //
-//print(ans)
+print(ans)
