@@ -7,12 +7,10 @@
 //
 import Foundation
 
-var inputA = 0
-var inputB = -3
+var input = "aawaaaaaeeereeeereeegaaaaaaaaaaeeeee"
 
-
-let solution = SumTwoInt()
-let ans = solution.getSum(inputA, inputB)
+let solution = FirstUniqueChar()
+let ans = solution.firstUniqChar(input)
 //
 //
 print(ans)
