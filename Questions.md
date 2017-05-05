@@ -37,3 +37,20 @@ For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums sh
 Note:
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
+
+## Sum of Two Integers
+Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
+
+Example:
+Given a = 1 and b = 2, return 3.
+
+
+## First Unique Character in a String
+Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+
+Examples:
+
+s = "leetcode"
+return 0.
+s = "loveleetcode",
+return 2.
