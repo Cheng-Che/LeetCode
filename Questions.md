@@ -51,6 +51,7 @@ Given a string, find the first non-repeating character in it and return it's ind
 Examples:
 
 s = "leetcode"
-return 0.
+return 0
+
 s = "loveleetcode",
 return 2.
