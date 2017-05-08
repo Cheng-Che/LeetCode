@@ -17,7 +17,7 @@ class FirstUniqueChar { //method time out
         for i in 0..<stringArray.count{
             array[stringArray[i]] = array[stringArray[i]] == nil ? i : -1
         }
-        
+        print(array)
         for bas in array{
             if bas.value >= 0{
                 if ans == nil || bas.value < ans{

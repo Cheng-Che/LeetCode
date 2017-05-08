@@ -7,10 +7,11 @@
 //
 import Foundation
 
-var input = "aawaaaaaeeereeeereeegaaaaaaaaaaeeeee"
+var input = "abcde"
+var integer = 3
 
-let solution = FirstUniqueChar()
-let ans = solution.firstUniqChar(input)
+let solution = ReverseString2()
+let ans = solution.reverseStr(input, integer)
 //
 //
 print(ans)
