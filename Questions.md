@@ -79,7 +79,7 @@ Output: "-10"
 Note: The input will be in range of [-1e7, 1e7].
 
 
-## CheckReward
+## checkRecord
 You are given a string representing an attendance record for a student. The record only contains the following three characters:
 
 'A' : Absent.
