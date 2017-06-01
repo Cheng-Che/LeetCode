@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = "LLLPPLALLPPLLPL"
+var input = 6
 
-let solution = checkRecord()
-let ans = solution.checkRecord(input)
+let solution = UglyNumber()
+let ans = solution.isUgly(input)
 //
 //
 print(ans)

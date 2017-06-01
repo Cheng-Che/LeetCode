@@ -19,6 +19,7 @@
 		1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */; };
 		1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9DE1EDFF09E000DFC44 /* Base7.swift */; };
 		1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */; };
+		1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		1ECAD9DE1EDFF09E000DFC44 /* Base7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base7.swift; sourceTree = "<group>"; };
 		1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkRecord.swift; sourceTree = "<group>"; };
+		1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */,
 				1ECAD9DE1EDFF09E000DFC44 /* Base7.swift */,
 				1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */,
+				1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */,
 				1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */,
 				1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */,
+				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
