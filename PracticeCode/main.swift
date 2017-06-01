@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = -220
+var input = "LLLPPLALLPPLLPL"
 
-let solution = Base7()
-let ans = solution.convertToBase7(input)
+let solution = checkRecord()
+let ans = solution.checkRecord(input)
 //
 //
 print(ans)
