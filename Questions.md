@@ -66,3 +66,27 @@ Output: "bacdfeg"
 Restrictions:
 The string consists of lower English letters only.
 Length of the given string and k will in the range [1, 10000]
+
+##  Base 7
+Given an integer, return its base 7 string representation.
+
+Example 1:
+Input: 100
+Output: "202"
+Example 2:
+Input: -7
+Output: "-10"
+Note: The input will be in range of [-1e7, 1e7].
+
+
+## CheckReward
+You are given a string representing an attendance record for a student. The record only contains the following three characters:
+
+'A' : Absent.
+'L' : Late.
+'P' : Present.
+A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).
+
+You need to return whether the student could be rewarded according to his attendance record.
+
+
