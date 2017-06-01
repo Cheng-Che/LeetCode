@@ -7,11 +7,10 @@
 //
 import Foundation
 
-var input = "abcde"
-var integer = 3
+var input = -220
 
-let solution = ReverseString2()
-let ans = solution.reverseStr(input, integer)
+let solution = Base7()
+let ans = solution.convertToBase7(input)
 //
 //
 print(ans)
