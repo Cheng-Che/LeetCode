@@ -21,6 +21,7 @@
 		1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */; };
 		1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */; };
 		1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E61EE13967000DFC44 /* PerfectNumber.swift */; };
+		1ECAD9E91EE14688000DFC44 /* LengthLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E81EE14688000DFC44 /* LengthLastWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkRecord.swift; sourceTree = "<group>"; };
 		1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumber.swift; sourceTree = "<group>"; };
 		1ECAD9E61EE13967000DFC44 /* PerfectNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectNumber.swift; sourceTree = "<group>"; };
+		1ECAD9E81EE14688000DFC44 /* LengthLastWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthLastWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */,
 				1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */,
 				1ECAD9E61EE13967000DFC44 /* PerfectNumber.swift */,
+				1ECAD9E81EE14688000DFC44 /* LengthLastWord.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */,
 				1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */,
 				1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */,
+				1ECAD9E91EE14688000DFC44 /* LengthLastWord.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,

@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 812
+var input = "sdsd fefefs werw  "
 
-let solution = PerfectNum()
-let ans = solution.checkPerfectNumber(input)
+let solution = Lastword()
+let ans = solution.lengthOfLastWord(input)
 //
 //
 print(ans)
