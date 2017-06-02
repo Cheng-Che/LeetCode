@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 6
+var input = 812
 
-let solution = UglyNumber()
-let ans = solution.isUgly(input)
+let solution = PerfectNum()
+let ans = solution.checkPerfectNumber(input)
 //
 //
 print(ans)
