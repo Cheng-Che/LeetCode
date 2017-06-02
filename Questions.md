@@ -141,3 +141,9 @@ Output: 1
 
 Explanation: Note that the third maximum here means the third maximum distinct number.
 Both numbers with value 2 are both considered as second maximum.
+
+
+## Count Primes
+Description:
+
+Count the number of prime numbers less than a non-negative number, n.
