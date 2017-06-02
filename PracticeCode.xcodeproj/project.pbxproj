@@ -23,6 +23,7 @@
 		1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E61EE13967000DFC44 /* PerfectNumber.swift */; };
 		1ECAD9E91EE14688000DFC44 /* LengthLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E81EE14688000DFC44 /* LengthLastWord.swift */; };
 		1ECAD9EB1EE14BF4000DFC44 /* ThirdMaxNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9EA1EE14BF4000DFC44 /* ThirdMaxNumber.swift */; };
+		1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9EC1EE158D7000DFC44 /* CountPrimes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		1ECAD9E61EE13967000DFC44 /* PerfectNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectNumber.swift; sourceTree = "<group>"; };
 		1ECAD9E81EE14688000DFC44 /* LengthLastWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthLastWord.swift; sourceTree = "<group>"; };
 		1ECAD9EA1EE14BF4000DFC44 /* ThirdMaxNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdMaxNumber.swift; sourceTree = "<group>"; };
+		1ECAD9EC1EE158D7000DFC44 /* CountPrimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountPrimes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1ECAD9E61EE13967000DFC44 /* PerfectNumber.swift */,
 				1ECAD9E81EE14688000DFC44 /* LengthLastWord.swift */,
 				1ECAD9EA1EE14BF4000DFC44 /* ThirdMaxNumber.swift */,
+				1ECAD9EC1EE158D7000DFC44 /* CountPrimes.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
+				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */,

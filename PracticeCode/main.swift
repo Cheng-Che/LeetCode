@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = [0,0,0,0,0,0,0,0]
+var input = 100
 
-let solution = ThirdMaxnum()
-let ans = solution.thirdMax(input)
+let solution = countPrimes()
+let ans = solution.countPrimes(input)
 //
 //
 print(ans)
