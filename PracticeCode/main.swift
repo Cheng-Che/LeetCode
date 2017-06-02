@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = "sdsd fefefs werw  "
+var input = [0,0,0,0,0,0,0,0]
 
-let solution = Lastword()
-let ans = solution.lengthOfLastWord(input)
+let solution = ThirdMaxnum()
+let ans = solution.thirdMax(input)
 //
 //
 print(ans)
