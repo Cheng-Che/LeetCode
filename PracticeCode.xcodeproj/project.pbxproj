@@ -25,6 +25,7 @@
 		1ECAD9EB1EE14BF4000DFC44 /* ThirdMaxNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9EA1EE14BF4000DFC44 /* ThirdMaxNumber.swift */; };
 		1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9EC1EE158D7000DFC44 /* CountPrimes.swift */; };
 		1ECAD9EF1EE2845C000DFC44 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9EE1EE2845C000DFC44 /* ReverseInteger.swift */; };
+		1ECAD9F11EE29FB7000DFC44 /* SingleNum3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F01EE29FB7000DFC44 /* SingleNum3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		1ECAD9EA1EE14BF4000DFC44 /* ThirdMaxNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdMaxNumber.swift; sourceTree = "<group>"; };
 		1ECAD9EC1EE158D7000DFC44 /* CountPrimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountPrimes.swift; sourceTree = "<group>"; };
 		1ECAD9EE1EE2845C000DFC44 /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		1ECAD9F01EE29FB7000DFC44 /* SingleNum3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNum3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1ECAD9EA1EE14BF4000DFC44 /* ThirdMaxNumber.swift */,
 				1ECAD9EC1EE158D7000DFC44 /* CountPrimes.swift */,
 				1ECAD9EE1EE2845C000DFC44 /* ReverseInteger.swift */,
+				1ECAD9F01EE29FB7000DFC44 /* SingleNum3.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */,
 				1ECAD9EF1EE2845C000DFC44 /* ReverseInteger.swift in Sources */,
+				1ECAD9F11EE29FB7000DFC44 /* SingleNum3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

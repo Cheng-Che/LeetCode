@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 8463847412
+var input = [1]
 
-let solution = ReverseInt()
-let ans = solution.reverse(input)
+let solution = SingleNum3()
+let ans = solution.singleNumber(input)
 //
 //
 print(ans)
