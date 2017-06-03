@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = [1]
+var input = [1,2,2,9,11,3,1,5,5,8]
 
-let solution = SingleNum3()
-let ans = solution.singleNumber(input)
+let solution = FindDuplicates()
+let ans = solution.findDuplicates(input)
 //
 //
 print(ans)
