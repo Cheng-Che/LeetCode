@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 100
+var input = 8463847412
 
-let solution = countPrimes()
-let ans = solution.countPrimes(input)
+let solution = ReverseInt()
+let ans = solution.reverse(input)
 //
 //
 print(ans)
