@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 6
+var input = [1,3,2,2,1,1,2]
 
-let solution = MagicalString()
-let ans = solution.magicalString(input)
+let solution = SingleNumber2()
+let ans = solution.singleNumber(input)
 //
 //
 print(ans)

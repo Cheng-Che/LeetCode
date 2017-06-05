@@ -29,6 +29,7 @@
 		1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F21EE2B769000DFC44 /* FindDuplicates.swift */; };
 		1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F41EE5322D000DFC44 /* NextGreater2.swift */; };
 		1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F61EE545A4000DFC44 /* MagicalString.swift */; };
+		1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F81EE55B16000DFC44 /* SingleNum2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		1ECAD9F21EE2B769000DFC44 /* FindDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindDuplicates.swift; sourceTree = "<group>"; };
 		1ECAD9F41EE5322D000DFC44 /* NextGreater2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextGreater2.swift; sourceTree = "<group>"; };
 		1ECAD9F61EE545A4000DFC44 /* MagicalString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicalString.swift; sourceTree = "<group>"; };
+		1ECAD9F81EE55B16000DFC44 /* SingleNum2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNum2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				1ECAD9F21EE2B769000DFC44 /* FindDuplicates.swift */,
 				1ECAD9F41EE5322D000DFC44 /* NextGreater2.swift */,
 				1ECAD9F61EE545A4000DFC44 /* MagicalString.swift */,
+				1ECAD9F81EE55B16000DFC44 /* SingleNum2.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				1E7402D81EB83F1B00E1F0D6 /* MoveZeros.swift in Sources */,
 				1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */,
 				1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */,
+				1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */,
 				1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */,
 				1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */,
 				1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */,
