@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = [1,2,2,9,11,3,1,5,5,8]
+var input = [1,3,1, 2,4,5]
 
-let solution = FindDuplicates()
-let ans = solution.findDuplicates(input)
+let solution = NextGreater2()
+let ans = solution.nextGreaterElements(input)
 //
 //
 print(ans)

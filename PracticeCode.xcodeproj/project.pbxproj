@@ -27,6 +27,7 @@
 		1ECAD9EF1EE2845C000DFC44 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9EE1EE2845C000DFC44 /* ReverseInteger.swift */; };
 		1ECAD9F11EE29FB7000DFC44 /* SingleNum3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F01EE29FB7000DFC44 /* SingleNum3.swift */; };
 		1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F21EE2B769000DFC44 /* FindDuplicates.swift */; };
+		1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F41EE5322D000DFC44 /* NextGreater2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		1ECAD9EE1EE2845C000DFC44 /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		1ECAD9F01EE29FB7000DFC44 /* SingleNum3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNum3.swift; sourceTree = "<group>"; };
 		1ECAD9F21EE2B769000DFC44 /* FindDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindDuplicates.swift; sourceTree = "<group>"; };
+		1ECAD9F41EE5322D000DFC44 /* NextGreater2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextGreater2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				1ECAD9EE1EE2845C000DFC44 /* ReverseInteger.swift */,
 				1ECAD9F01EE29FB7000DFC44 /* SingleNum3.swift */,
 				1ECAD9F21EE2B769000DFC44 /* FindDuplicates.swift */,
+				1ECAD9F41EE5322D000DFC44 /* NextGreater2.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
+				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
 				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
