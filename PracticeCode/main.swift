@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = [1,3,1, 2,4,5]
+var input = 6
 
-let solution = NextGreater2()
-let ans = solution.nextGreaterElements(input)
+let solution = MagicalString()
+let ans = solution.magicalString(input)
 //
 //
 print(ans)
