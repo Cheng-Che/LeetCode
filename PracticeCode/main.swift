@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = [1,3,2,2,1,1,2]
+var input = 9
 
-let solution = SingleNumber2()
-let ans = solution.singleNumber(input)
+let solution = EliminationGame()
+let ans = solution.lastRemaining(input)
 //
 //
 print(ans)
