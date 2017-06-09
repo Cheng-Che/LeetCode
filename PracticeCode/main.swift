@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 9
+var input = "3[a]2[bc]5[fek]122[a]"
 
-let solution = EliminationGame()
-let ans = solution.lastRemaining(input)
+let solution = DecodeString()
+let ans = solution.decodeString(input)
 //
 //
 print(ans)
