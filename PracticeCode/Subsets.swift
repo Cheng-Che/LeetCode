@@ -10,7 +10,6 @@ import Foundation
 
 class Subsets {
     func subsets(_ nums: [Int]) -> [[Int]] {
-        
         var ans:[[Int]] = []
         for i in 0..<nums.count{
             for j in 0..<ans.count{
@@ -22,7 +21,6 @@ class Subsets {
         }
         ans.append([])
         return ans
-                
     }
 
 }
