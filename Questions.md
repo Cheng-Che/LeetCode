@@ -288,3 +288,22 @@ Examples:
 s = "3[a]2[bc]", return "aaabcbc".
 s = "3[a2[c]]", return "accaccacc".
 s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
+
+## Subsets
+Given a set of distinct integers, nums, return all possible subsets.
+
+Note: The solution set must not contain duplicate subsets.
+
+For example,
+If nums = [1,2,3], a solution is:
+
+[
+  [3],
+  [1],
+  [2],
+  [1,2,3],
+  [1,3],
+  [2,3],
+  [1,2],
+  []
+]
