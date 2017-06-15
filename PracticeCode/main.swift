@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = "3[a]2[bc]5[fek]122[a]"
+var input = [1,2,3,4]
 
-let solution = DecodeString()
-let ans = solution.decodeString(input)
+let solution = Subsets()
+let ans = solution.subsets(input)
 //
 //
 print(ans)

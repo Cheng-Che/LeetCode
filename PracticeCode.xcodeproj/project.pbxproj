@@ -19,6 +19,7 @@
 		1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */; };
 		1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC831201EE6A70B00B44C91 /* EliminationGame.swift */; };
 		1EC831231EE91D8500B44C91 /* DecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC831221EE91D8500B44C91 /* DecodeString.swift */; };
+		1EC831271EF26CFE00B44C91 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC831261EF26CFE00B44C91 /* Subsets.swift */; };
 		1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9DE1EDFF09E000DFC44 /* Base7.swift */; };
 		1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */; };
 		1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */; };
@@ -61,6 +62,7 @@
 		1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		1EC831201EE6A70B00B44C91 /* EliminationGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EliminationGame.swift; sourceTree = "<group>"; };
 		1EC831221EE91D8500B44C91 /* DecodeString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeString.swift; sourceTree = "<group>"; };
+		1EC831261EF26CFE00B44C91 /* Subsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		1ECAD9DE1EDFF09E000DFC44 /* Base7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base7.swift; sourceTree = "<group>"; };
 		1ECAD9E01EE005A1000DFC44 /* checkRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkRecord.swift; sourceTree = "<group>"; };
 		1ECAD9E21EE00FD1000DFC44 /* UglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumber.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				1ECAD9FA1EE68379000DFC44 /* LicenseKeyFormatting.swift */,
 				1EC831201EE6A70B00B44C91 /* EliminationGame.swift */,
 				1EC831221EE91D8500B44C91 /* DecodeString.swift */,
+				1EC831261EF26CFE00B44C91 /* Subsets.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
+				1EC831271EF26CFE00B44C91 /* Subsets.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
 				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
