@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = 6
+var input = 5
 
-let solution = SpiralMatrix2()
-let ans = solution.generateMatrix(input)
+let solution = IntegerBreak()
+let ans = solution.integerBreak(input)
 //
 //
 print(ans)

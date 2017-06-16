@@ -10,7 +10,6 @@ import Foundation
 
 class SpiralMatrix2{
     func generateMatrix(_ n: Int) -> [[Int]] {
-        
         if n <= 0 { return [] }
         var ans:[[Int]] = [Array(1...n)]
         var i = 1  //加入哪個array
