@@ -7,10 +7,10 @@
 //
 import Foundation
 
-var input = [1,2,3,4]
+var input = 6
 
-let solution = Subsets()
-let ans = solution.subsets(input)
+let solution = SpiralMatrix2()
+let ans = solution.generateMatrix(input)
 //
 //
 print(ans)
