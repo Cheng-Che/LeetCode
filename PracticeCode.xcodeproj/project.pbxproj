@@ -37,6 +37,8 @@
 		1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9F81EE55B16000DFC44 /* SingleNum2.swift */; };
 		1ECAD9FB1EE68379000DFC44 /* LicenseKeyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9FA1EE68379000DFC44 /* LicenseKeyFormatting.swift */; };
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
+		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
+		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +85,8 @@
 		1ECAD9F81EE55B16000DFC44 /* SingleNum2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNum2.swift; sourceTree = "<group>"; };
 		1ECAD9FA1EE68379000DFC44 /* LicenseKeyFormatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseKeyFormatting.swift; sourceTree = "<group>"; };
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
+		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
+		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 				1EC831281EF3869000B44C91 /* SpiralMatrix2.swift */,
 				1EC8312A1EF3DAE100B44C91 /* IntegerBreak.swift */,
 				1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */,
+				1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */,
+				1EDA01A21F0CBDF7001FF412 /* NimGame.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 				1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */,
 				1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */,
 				1ECAD9FB1EE68379000DFC44 /* LicenseKeyFormatting.swift in Sources */,
+				1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */,
 				1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */,
+				1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */,
 				1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */,
 				1EC831291EF3869000B44C91 /* SpiralMatrix2.swift in Sources */,
 				1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */,
