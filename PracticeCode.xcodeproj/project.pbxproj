@@ -39,6 +39,10 @@
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
 		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
 		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
+		1EDA01A51F0CC27F001FF412 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A41F0CC27F001FF412 /* ReverseString.swift */; };
+		1EDA01A91F0CCE2C001FF412 /* DeleteOperation2Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A81F0CCE2C001FF412 /* DeleteOperation2Str.swift */; };
+		1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */; };
+		1EDA01AD1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,6 +91,10 @@
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
 		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
+		1EDA01A41F0CC27F001FF412 /* ReverseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		1EDA01A81F0CCE2C001FF412 /* DeleteOperation2Str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteOperation2Str.swift; sourceTree = "<group>"; };
+		1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMoves2.swift; sourceTree = "<group>"; };
+		1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountNumbersWithUniqueDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,10 @@
 				1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */,
 				1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */,
 				1EDA01A21F0CBDF7001FF412 /* NimGame.swift */,
+				1EDA01A41F0CC27F001FF412 /* ReverseString.swift */,
+				1EDA01A81F0CCE2C001FF412 /* DeleteOperation2Str.swift */,
+				1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */,
+				1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -226,6 +238,8 @@
 				1EC831291EF3869000B44C91 /* SpiralMatrix2.swift in Sources */,
 				1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */,
 				1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */,
+				1EDA01AD1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift in Sources */,
+				1EDA01A91F0CCE2C001FF412 /* DeleteOperation2Str.swift in Sources */,
 				1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */,
 				1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */,
 				1ECAD9E91EE14688000DFC44 /* LengthLastWord.swift in Sources */,
@@ -236,9 +250,11 @@
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
 				1EC831271EF26CFE00B44C91 /* Subsets.swift in Sources */,
+				1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
 				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
+				1EDA01A51F0CC27F001FF412 /* ReverseString.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
 				1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */,

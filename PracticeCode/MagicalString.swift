@@ -15,7 +15,7 @@ class MagicalString {
         var i = 2
         while i < n{
             let j = magicArray.last   // last number
-            for i in 0..<magicArray[i]{
+            for _ in 0..<magicArray[i]{
                 magicArray.append(j==1 ? 2 : 1)
             }
             i+=1

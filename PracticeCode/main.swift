@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = 4
+var input = 2
 
 
-let solution = NimGame()
-let ans = solution.canWinNim(input)
+let solution = CountNumbersWithUniqueDigits()
+let ans = solution.countNumbersWithUniqueDigits(input)
 //
 //
 print(ans)
