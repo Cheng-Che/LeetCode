@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = 2
+var input = "bacbbde"
 
 
-let solution = CountNumbersWithUniqueDigits()
-let ans = solution.countNumbersWithUniqueDigits(input)
+let solution = FrequencySort()
+let ans = solution.frequencySort(input)
 //
 //
 print(ans)

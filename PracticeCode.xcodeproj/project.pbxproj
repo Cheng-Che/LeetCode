@@ -43,6 +43,7 @@
 		1EDA01A91F0CCE2C001FF412 /* DeleteOperation2Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A81F0CCE2C001FF412 /* DeleteOperation2Str.swift */; };
 		1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */; };
 		1EDA01AD1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */; };
+		1EDA01B31F14ACB3001FF412 /* FrequencySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01B21F14ACB3001FF412 /* FrequencySort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		1EDA01A81F0CCE2C001FF412 /* DeleteOperation2Str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteOperation2Str.swift; sourceTree = "<group>"; };
 		1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMoves2.swift; sourceTree = "<group>"; };
 		1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountNumbersWithUniqueDigits.swift; sourceTree = "<group>"; };
+		1EDA01B21F14ACB3001FF412 /* FrequencySort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencySort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				1EDA01A81F0CCE2C001FF412 /* DeleteOperation2Str.swift */,
 				1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */,
 				1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */,
+				1EDA01B21F14ACB3001FF412 /* FrequencySort.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
 				1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */,
 				1ECAD9EF1EE2845C000DFC44 /* ReverseInteger.swift in Sources */,
+				1EDA01B31F14ACB3001FF412 /* FrequencySort.swift in Sources */,
 				1EC8312B1EF3DAE100B44C91 /* IntegerBreak.swift in Sources */,
 				1ECAD9F11EE29FB7000DFC44 /* SingleNum3.swift in Sources */,
 			);
