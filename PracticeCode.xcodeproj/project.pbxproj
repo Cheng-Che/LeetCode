@@ -44,6 +44,7 @@
 		1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */; };
 		1EDA01AD1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */; };
 		1EDA01B31F14ACB3001FF412 /* FrequencySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01B21F14ACB3001FF412 /* FrequencySort.swift */; };
+		1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01B81F160382001FF412 /* SingleNonDuplicate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +98,7 @@
 		1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMoves2.swift; sourceTree = "<group>"; };
 		1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountNumbersWithUniqueDigits.swift; sourceTree = "<group>"; };
 		1EDA01B21F14ACB3001FF412 /* FrequencySort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencySort.swift; sourceTree = "<group>"; };
+		1EDA01B81F160382001FF412 /* SingleNonDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNonDuplicate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				1EDA01AA1F0E15DE001FF412 /* MinMoves2.swift */,
 				1EDA01AC1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift */,
 				1EDA01B21F14ACB3001FF412 /* FrequencySort.swift */,
+				1EDA01B81F160382001FF412 /* SingleNonDuplicate.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				1ECAD9EB1EE14BF4000DFC44 /* ThirdMaxNumber.swift in Sources */,
 				1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */,
 				1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */,
+				1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
