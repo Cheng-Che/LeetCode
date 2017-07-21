@@ -10,10 +10,8 @@ import Foundation
 class ZumaGame4 {
 
     func findMinStep(_ board: String, _ hand: String) -> Int {
-        
         var handRecord:[Character:Int] = [:]
         var res = 6
-        
         for char in hand.characters{
             if handRecord[char] == nil{
                 handRecord.updateValue(1, forKey: char)
@@ -31,9 +29,6 @@ class ZumaGame4 {
         if res<=0 || cur > numsOfHand{
             return
         }
-        //print(board)
-        //print(res)
-        //print(cur)
         var i = 0
         let boardRecord = board.characters.map({ String($0) })
         
@@ -80,7 +75,6 @@ class ZumaGame4 {
     
     func refreshBoard(board:[String]) -> [String]{
         var boardRecord = board
-        print("original \(board)")
         var count = 0
         for i in 0..<boardRecord.count{
             if i+1<boardRecord.count && boardRecord[i] == boardRecord[i+1]{
@@ -95,17 +89,14 @@ class ZumaGame4 {
                 count = 0
             }
         }
-        print("board \(boardRecord)")
         return boardRecord
     }
     
     func array2String(array:[String])->String{
         var string:String = ""
-        
         for i in array{
             string.append(i)
         }
         return string
-        
     }
 }
