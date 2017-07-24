@@ -8,11 +8,10 @@
 import Foundation
 
 
-var input = "GYGGYYRRYGGYR"
-var input2 = "GGGGY"
+var input = 15
 
-let solution = ZumaGame4()
-let ans = solution.findMinStep(input, input2)
+let solution = HappyNumbr()
+let ans = solution.isHappy(input)
 //
 //
 print(ans)

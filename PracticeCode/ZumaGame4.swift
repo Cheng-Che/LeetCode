@@ -56,9 +56,7 @@ class ZumaGame4 {
                     var nextBoard = boardRecord
                     nextBoard.insert(boardRecord[i], at: i)
                     nextBoard.insert(boardRecord[i], at: i)
-                    nextBoard = refreshBoard(board: nextBoard)
-                    print(nextBoard)
-                    print(hand)
+
                     if nextBoard.count > 0{
                         helper(board: array2String(array: nextBoard), hand: &hand, numsOfHand: numsOfHand, res: &res, cur: cur+2)
                     }else{
