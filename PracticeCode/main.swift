@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = 15
+var input = 2
 
-let solution = HappyNumbr()
-let ans = solution.isHappy(input)
+let solution = PascalsTriangle()
+let ans = solution.generate(input)
 //
 //
 print(ans)

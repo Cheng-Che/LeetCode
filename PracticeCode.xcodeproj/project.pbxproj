@@ -16,6 +16,8 @@
 		1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402DB1EBB131400E1F0D6 /* FirstUniqueChar.swift */; };
 		1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */; };
 		1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */; };
+		1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */; };
+		1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */; };
 		1EB909A81EAF2C7900A43CE1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */; };
 		1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */; };
 		1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC831201EE6A70B00B44C91 /* EliminationGame.swift */; };
@@ -72,6 +74,8 @@
 		1E7402DB1EBB131400E1F0D6 /* FirstUniqueChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUniqueChar.swift; sourceTree = "<group>"; };
 		1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString2.swift; sourceTree = "<group>"; };
 		1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
+		1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
+		1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
 		1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		1EC831201EE6A70B00B44C91 /* EliminationGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EliminationGame.swift; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 				1EDA01B81F160382001FF412 /* SingleNonDuplicate.swift */,
 				1EDA01C21F20AB95001FF412 /* ZumaGame4.swift */,
 				1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */,
+				1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */,
+				1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -246,7 +252,9 @@
 				1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */,
 				1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */,
 				1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */,
+				1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */,
 				1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */,
+				1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */,
 				1EC831291EF3869000B44C91 /* SpiralMatrix2.swift in Sources */,
 				1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */,
 				1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */,
