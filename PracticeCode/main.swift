@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = 16
+var input = " hello,  is a  pig "
 
-let solution = ArrangingCoins()
-let ans = solution.arrangeCoins(input)
+let solution = CountSegments()
+let ans = solution.countSegments(input)
 //
 //
 print(ans)
