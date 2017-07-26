@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = 2
+var input = 16
 
-let solution = PascalsTriangle()
-let ans = solution.generate(input)
+let solution = ArrangingCoins()
+let ans = solution.arrangeCoins(input)
 //
 //
 print(ans)

@@ -33,8 +33,8 @@ class PascalsTriangle {
     }
 }
 
-/* another ans
-class PascalsTriangle {
+//another ans
+class PascalsTriangle_1 {
     func generate(_ numRows: Int) -> [[Int]] {
         var ans:[[Int]] = [[1], [1,1]]
         if numRows <= 0 { return [] }
@@ -51,4 +51,22 @@ class PascalsTriangle {
         return ans
     }
 }
- */
+
+// PascalsTriangle2
+class PascalsTriangle2 {
+    func getRow(_ rowIndex: Int) -> [Int] {
+        var ans:[Int] = [1,1]
+        if rowIndex <= 0 { return [1] }
+        for _ in 1..<rowIndex{
+            var temp:[Int] = [1,1]
+            for j in 0..<ans.count{
+                if j+1<ans.count{
+                    temp.insert(ans[j] + ans[j+1], at: 1)
+                }
+            }
+            ans = temp
+        }
+        return ans
+    }
+}
+ 
