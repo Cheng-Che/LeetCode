@@ -8,10 +8,11 @@
 import Foundation
 
 
-var input = " hello,  is a  pig "
+var input = ["5","-2","C","16","D","9","+","C"]
 
-let solution = CountSegments()
-let ans = solution.countSegments(input)
+
+let solution = BaseballGame()
+let ans = solution.calPoints(input)
 //
 //
 print(ans)
