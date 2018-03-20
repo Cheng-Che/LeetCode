@@ -1,3 +1,17 @@
+## Baseball Game
+You're now a baseball game point recorder.
+
+Given a list of strings, each string can be one of the 4 following types:
+
+Integer (one round's score): Directly represents the number of points you get in this round.
+"+" (one round's score): Represents that the points you get in this round are the sum of the last two valid round's points.
+"D" (one round's score): Represents that the points you get in this round are the doubled data of the last valid round's points.
+"C" (an operation, which isn't a round's score): Represents the last valid round's points you get were invalid and should be removed.
+Each round's operation is permanent and could have an impact on the round before and the round after.
+
+You need to return the sum of the points you could get in all the rounds.
+
+
 ## Count and Say
 
 The count-and-say sequence is the sequence of integers beginning as follows:
@@ -548,3 +562,13 @@ The coins can form the following rows:
 ¤ ¤
 
 Because the 4th row is incomplete, we return 3.
+
+## Number of Segments in a String
+Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.
+
+Please note that the string does not contain any non-printable characters.
+
+Example:
+
+Input: "Hello, my name is John"
+Output: 5
