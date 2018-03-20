@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = ["5","-2","C","16","D","9","+","C"]
+var input = [0,5,12,17,18,20, 1000, 2000]
 
 
-let solution = BaseballGame()
-let ans = solution.calPoints(input)
+let solution = FindPoisonedDuration()
+let ans = solution.findPoisonedDuration(input, 800)
 //
 //
 print(ans)

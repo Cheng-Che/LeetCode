@@ -53,6 +53,7 @@
 		1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01B81F160382001FF412 /* SingleNonDuplicate.swift */; };
 		1EDA01C31F20AB95001FF412 /* ZumaGame4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01C21F20AB95001FF412 /* ZumaGame4.swift */; };
 		1EF60FE02060DD77001A9AFA /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */; };
+		1EF60FE22060FBCC001A9AFA /* FindPoisonedDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +116,7 @@
 		1EDA01B81F160382001FF412 /* SingleNonDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNonDuplicate.swift; sourceTree = "<group>"; };
 		1EDA01C21F20AB95001FF412 /* ZumaGame4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZumaGame4.swift; sourceTree = "<group>"; };
 		1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
+		1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPoisonedDuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				1E7AADB51F2875F5000BD3C3 /* CountSegments.swift */,
 				1E7AADB71F287F38000BD3C3 /* BeautifulArrangement.swift */,
 				1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */,
+				1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				1EC831291EF3869000B44C91 /* SpiralMatrix2.swift in Sources */,
 				1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */,
 				1ECAD9E11EE005A1000DFC44 /* checkRecord.swift in Sources */,
+				1EF60FE22060FBCC001A9AFA /* FindPoisonedDuration.swift in Sources */,
 				1EDA01AD1F0E3240001FF412 /* CountNumbersWithUniqueDigits.swift in Sources */,
 				1EDA01A91F0CCE2C001FF412 /* DeleteOperation2Str.swift in Sources */,
 				1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */,
