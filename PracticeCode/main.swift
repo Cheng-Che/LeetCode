@@ -8,14 +8,12 @@
 import Foundation
 
 
-//var input = [0,5,12,17,18,20, 1000, 2000]
-var A = [1, 2]
-var B = [-2, -1]
-var C = [-1, 2]
-var D = [0, 2]
+var input:[Character] = ["a", "b", "f", "f", "f", "f"]
+var target:Character = "k"
 
-let solution = FourSum2()
-let ans = solution.fourSumCount(A, B, C, D)
+
+let solution = FindSmallestLetter()
+let ans = solution.nextGreatestLetter(input, target)
 
 
 print(ans)

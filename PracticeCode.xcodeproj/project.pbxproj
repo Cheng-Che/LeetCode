@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
 		1E70F0CD206230E50096790C /* 4Sum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CC206230E50096790C /* 4Sum2.swift */; };
+		1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */; };
 		1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */; };
 		1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */; };
 		1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D51EB33F4D00E1F0D6 /* strStr.swift */; };
@@ -73,6 +74,7 @@
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1E70F0CC206230E50096790C /* 4Sum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum2.swift; sourceTree = "<group>"; };
+		1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSmallestLetter.swift; sourceTree = "<group>"; };
 		1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countAndSay.swift; sourceTree = "<group>"; };
 		1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicate.swift; sourceTree = "<group>"; };
 		1E7402D51EB33F4D00E1F0D6 /* strStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */,
 				1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */,
 				1E70F0CC206230E50096790C /* 4Sum2.swift */,
+				1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				1EF60FE02060DD77001A9AFA /* BaseballGame.swift in Sources */,
 				1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */,
 				1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */,
+				1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
