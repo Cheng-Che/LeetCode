@@ -8,12 +8,10 @@
 import Foundation
 
 
-var input:[Character] = ["a", "b", "f", "f", "f", "f"]
-var target:Character = "k"
+var input = [[1,0,1],[1,1,1]]
 
-
-let solution = FindSmallestLetter()
-let ans = solution.nextGreatestLetter(input, target)
+let solution = MaxAreaIsland()
+let ans = solution.maxAreaOfIsland(input)
 
 
 print(ans)
