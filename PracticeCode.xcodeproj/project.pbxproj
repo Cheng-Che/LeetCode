@@ -12,6 +12,7 @@
 		1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */; };
 		1E70F0D12068A2C90096790C /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D02068A2C90096790C /* FindDifference.swift */; };
 		1E70F0D32068C85E0096790C /* MaxAreaIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D22068C85E0096790C /* MaxAreaIsland.swift */; };
+		1E70F0D52069F7720096790C /* DetectCapitalUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D42069F7720096790C /* DetectCapitalUse.swift */; };
 		1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */; };
 		1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */; };
 		1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D51EB33F4D00E1F0D6 /* strStr.swift */; };
@@ -79,6 +80,7 @@
 		1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSmallestLetter.swift; sourceTree = "<group>"; };
 		1E70F0D02068A2C90096790C /* FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifference.swift; sourceTree = "<group>"; };
 		1E70F0D22068C85E0096790C /* MaxAreaIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaIsland.swift; sourceTree = "<group>"; };
+		1E70F0D42069F7720096790C /* DetectCapitalUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCapitalUse.swift; sourceTree = "<group>"; };
 		1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countAndSay.swift; sourceTree = "<group>"; };
 		1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicate.swift; sourceTree = "<group>"; };
 		1E7402D51EB33F4D00E1F0D6 /* strStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */,
 				1E70F0D02068A2C90096790C /* FindDifference.swift */,
 				1E70F0D22068C85E0096790C /* MaxAreaIsland.swift */,
+				1E70F0D42069F7720096790C /* DetectCapitalUse.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */,
 				1E7AADB61F2875F5000BD3C3 /* CountSegments.swift in Sources */,
 				1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */,
+				1E70F0D52069F7720096790C /* DetectCapitalUse.swift in Sources */,
 				1E7AADB21F283C96000BD3C3 /* ArrangingCoins.swift in Sources */,
 				1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */,
 				1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */,

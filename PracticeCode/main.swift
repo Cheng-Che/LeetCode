@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = [[1,0,1],[1,1,1]]
+var input = "EfkfgkthoTg"
 
-let solution = MaxAreaIsland()
-let ans = solution.maxAreaOfIsland(input)
+let solution = DetectCapitalUse()
+let ans = solution.detectCapitalUse(input)
 
 
 print(ans)
