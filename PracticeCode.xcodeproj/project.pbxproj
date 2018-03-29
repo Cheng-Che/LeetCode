@@ -18,6 +18,7 @@
 		1E70F0DB206B68540096790C /* UpdateBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0DA206B68540096790C /* UpdateBoard.swift */; };
 		1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0DC206B8B450096790C /* TopFrequentElements.swift */; };
 		1E70F0DF206C9AF00096790C /* BrickWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0DE206C9AF00096790C /* BrickWall.swift */; };
+		1E70F0E1206CDF1F0096790C /* PowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0E0206CDF1F0096790C /* PowerOfThree.swift */; };
 		1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */; };
 		1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */; };
 		1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D51EB33F4D00E1F0D6 /* strStr.swift */; };
@@ -91,6 +92,7 @@
 		1E70F0DA206B68540096790C /* UpdateBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBoard.swift; sourceTree = "<group>"; };
 		1E70F0DC206B8B450096790C /* TopFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFrequentElements.swift; sourceTree = "<group>"; };
 		1E70F0DE206C9AF00096790C /* BrickWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickWall.swift; sourceTree = "<group>"; };
+		1E70F0E0206CDF1F0096790C /* PowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfThree.swift; sourceTree = "<group>"; };
 		1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countAndSay.swift; sourceTree = "<group>"; };
 		1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicate.swift; sourceTree = "<group>"; };
 		1E7402D51EB33F4D00E1F0D6 /* strStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				1E70F0DA206B68540096790C /* UpdateBoard.swift */,
 				1E70F0DC206B8B450096790C /* TopFrequentElements.swift */,
 				1E70F0DE206C9AF00096790C /* BrickWall.swift */,
+				1E70F0E0206CDF1F0096790C /* PowerOfThree.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				TargetAttributes = {
 					1E3678A71EADE1E6001EB9BF = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -335,6 +339,7 @@
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
 				1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */,
 				1EDA01A51F0CC27F001FF412 /* ReverseString.swift in Sources */,
+				1E70F0E1206CDF1F0096790C /* PowerOfThree.swift in Sources */,
 				1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
@@ -446,7 +451,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -455,7 +461,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

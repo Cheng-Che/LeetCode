@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input:[[Int]] = [[1,2,2,1],[3,1,2],[1,3,2],[2,4],[3,1,2],[1,3,1,1]]
+var input:Int = 3
 
-let solution = LeastBricks()
-let ans = solution.leastBricks(input)
+let solution = PowerOfThree()
+let ans = solution.isPowerOfThree(input)
 
 
 print(ans)
