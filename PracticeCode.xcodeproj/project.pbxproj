@@ -13,6 +13,11 @@
 		1E70F0D12068A2C90096790C /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D02068A2C90096790C /* FindDifference.swift */; };
 		1E70F0D32068C85E0096790C /* MaxAreaIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D22068C85E0096790C /* MaxAreaIsland.swift */; };
 		1E70F0D52069F7720096790C /* DetectCapitalUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D42069F7720096790C /* DetectCapitalUse.swift */; };
+		1E70F0D7206A18950096790C /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D6206A18950096790C /* AddDigits.swift */; };
+		1E70F0D9206A21930096790C /* CountSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D8206A21930096790C /* CountSubstrings.swift */; };
+		1E70F0DB206B68540096790C /* UpdateBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0DA206B68540096790C /* UpdateBoard.swift */; };
+		1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0DC206B8B450096790C /* TopFrequentElements.swift */; };
+		1E70F0DF206C9AF00096790C /* BrickWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0DE206C9AF00096790C /* BrickWall.swift */; };
 		1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */; };
 		1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */; };
 		1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402D51EB33F4D00E1F0D6 /* strStr.swift */; };
@@ -81,6 +86,11 @@
 		1E70F0D02068A2C90096790C /* FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifference.swift; sourceTree = "<group>"; };
 		1E70F0D22068C85E0096790C /* MaxAreaIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaIsland.swift; sourceTree = "<group>"; };
 		1E70F0D42069F7720096790C /* DetectCapitalUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCapitalUse.swift; sourceTree = "<group>"; };
+		1E70F0D6206A18950096790C /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
+		1E70F0D8206A21930096790C /* CountSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSubstrings.swift; sourceTree = "<group>"; };
+		1E70F0DA206B68540096790C /* UpdateBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBoard.swift; sourceTree = "<group>"; };
+		1E70F0DC206B8B450096790C /* TopFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFrequentElements.swift; sourceTree = "<group>"; };
+		1E70F0DE206C9AF00096790C /* BrickWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickWall.swift; sourceTree = "<group>"; };
 		1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countAndSay.swift; sourceTree = "<group>"; };
 		1E7402D31EB30DBD00E1F0D6 /* RemoveDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicate.swift; sourceTree = "<group>"; };
 		1E7402D51EB33F4D00E1F0D6 /* strStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
@@ -211,6 +221,11 @@
 				1E70F0D02068A2C90096790C /* FindDifference.swift */,
 				1E70F0D22068C85E0096790C /* MaxAreaIsland.swift */,
 				1E70F0D42069F7720096790C /* DetectCapitalUse.swift */,
+				1E70F0D6206A18950096790C /* AddDigits.swift */,
+				1E70F0D8206A21930096790C /* CountSubstrings.swift */,
+				1E70F0DA206B68540096790C /* UpdateBoard.swift */,
+				1E70F0DC206B8B450096790C /* TopFrequentElements.swift */,
+				1E70F0DE206C9AF00096790C /* BrickWall.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -302,9 +317,12 @@
 				1ECAD9EB1EE14BF4000DFC44 /* ThirdMaxNumber.swift in Sources */,
 				1EDA01C31F20AB95001FF412 /* ZumaGame4.swift in Sources */,
 				1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */,
+				1E70F0D9206A21930096790C /* CountSubstrings.swift in Sources */,
+				1E70F0DF206C9AF00096790C /* BrickWall.swift in Sources */,
 				1EF60FE02060DD77001A9AFA /* BaseballGame.swift in Sources */,
 				1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */,
 				1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */,
+				1E70F0DB206B68540096790C /* UpdateBoard.swift in Sources */,
 				1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
@@ -317,8 +335,10 @@
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
 				1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */,
 				1EDA01A51F0CC27F001FF412 /* ReverseString.swift in Sources */,
+				1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
+				1E70F0D7206A18950096790C /* AddDigits.swift in Sources */,
 				1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */,
 				1ECAD9EF1EE2845C000DFC44 /* ReverseInteger.swift in Sources */,
 				1EDA01B31F14ACB3001FF412 /* FrequencySort.swift in Sources */,

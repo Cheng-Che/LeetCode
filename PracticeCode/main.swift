@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = "EfkfgkthoTg"
+var input:[[Int]] = [[1,2,2,1],[3,1,2],[1,3,2],[2,4],[3,1,2],[1,3,1,1]]
 
-let solution = DetectCapitalUse()
-let ans = solution.detectCapitalUse(input)
+let solution = LeastBricks()
+let ans = solution.leastBricks(input)
 
 
 print(ans)
