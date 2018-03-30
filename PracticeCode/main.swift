@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input:Int = 3
+var input:[Int] = [1,2,3,4,5,6,7,7,8,9]
 
-let solution = PowerOfThree()
-let ans = solution.isPowerOfThree(input)
+let solution = SetMismatch()
+let ans = solution.findErrorNums(input)
 
 
 print(ans)
