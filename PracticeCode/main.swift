@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input:[Int] = [1,2,3,4,5,6,7,7,8,9]
+var input = "RmR"
 
-let solution = SetMismatch()
-let ans = solution.findErrorNums(input)
+let solution = LetterCasePermutation()
+let ans = solution.letterCasePermutation(input)
 
 
 print(ans)
