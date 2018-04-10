@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = "RmR"
+var input = [1,1,4,4,5,5,3]
 
-let solution = LetterCasePermutation()
-let ans = solution.letterCasePermutation(input)
+let solution = SingleNumber()
+let ans = solution.singleNumber(input)
 
 
 print(ans)
