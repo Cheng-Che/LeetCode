@@ -1,3 +1,35 @@
+## Daily Temperatures
+Given a list of daily temperatures, produce a list that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for which this is possible, put 0 instead.
+
+For example, given the list temperatures = [73, 74, 75, 71, 69, 72, 76, 73], your output should be [1, 1, 4, 2, 1, 1, 0, 0].
+
+Note: The length of temperatures will be in the range [1, 30000]. Each temperature will be an integer in the range [30, 100]
+
+## Rabbits in Forest
+In a forest, each rabbit has some color. Some subset of rabbits (possibly all of them) tell you how many other rabbits have the same color as them. Those answers are placed in an array.
+
+Return the minimum number of rabbits that could be in the forest.
+
+Examples:
+Input: answers = [1, 1, 2]
+Output: 5
+Explanation:
+The two rabbits that answered "1" could both be the same color, say red.
+The rabbit than answered "2" can't be red or the answers would be inconsistent.
+Say the rabbit that answered "2" was blue.
+Then there should be 2 other blue rabbits in the forest that didn't answer into the array.
+The smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn't.
+
+Input: answers = [10, 10, 10]
+Output: 11
+
+Input: answers = []
+Output: 0
+Note:
+
+answers will have length at most 1000.
+Each answers[i] will be an integer in the range [0, 999].
+
 ## Ransom Note
 Given an arbitrary ransom note string and another string containing letters from all the magazines, write a function that will return true if the ransom note can be constructed from the magazines ; otherwise, it will return false.
 
