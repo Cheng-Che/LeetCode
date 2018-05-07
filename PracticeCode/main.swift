@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = [1,1,4,4,5,5,3]
+var input = [73, 74, 75, 71, 69, 72, 76, 73]
 
-let solution = SingleNumber()
-let ans = solution.singleNumber(input)
+let solution = DailyTemperatures()
+let ans = solution.dailyTemperatures(input)
 
 
 print(ans)
