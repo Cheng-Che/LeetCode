@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = [73, 74, 75, 71, 69, 72, 76, 73]
+var input = ["00:00", "22:00", "12:34"]
 
-let solution = DailyTemperatures()
-let ans = solution.dailyTemperatures(input)
+let solution = MinimumTime()
+let ans = solution.findMinDifference(input)
 
 
 print(ans)

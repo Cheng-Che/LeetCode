@@ -23,12 +23,9 @@ class DailyTemperatures {
                     }
                 }
             }
-  
             if i >= res.count{
                 res.append(0)
             }
-     
-        
         }
         return res
     }
