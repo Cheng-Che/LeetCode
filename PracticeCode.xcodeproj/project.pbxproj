@@ -38,6 +38,7 @@
 		1E7AADB81F287F38000BD3C3 /* BeautifulArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADB71F287F38000BD3C3 /* BeautifulArrangement.swift */; };
 		1E994F3720A024DB0055584D /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E994F3620A024DB0055584D /* DailyTemperatures.swift */; };
 		1E994F3920A04E650055584D /* MinimumTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E994F3820A04E650055584D /* MinimumTime.swift */; };
+		1E994F3B20A1906C0055584D /* MaxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E994F3A20A1906C0055584D /* MaxProduct.swift */; };
 		1EB909A81EAF2C7900A43CE1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */; };
 		1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */; };
 		1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC831201EE6A70B00B44C91 /* EliminationGame.swift */; };
@@ -122,6 +123,7 @@
 		1E7AADB71F287F38000BD3C3 /* BeautifulArrangement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulArrangement.swift; sourceTree = "<group>"; };
 		1E994F3620A024DB0055584D /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		1E994F3820A04E650055584D /* MinimumTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumTime.swift; sourceTree = "<group>"; };
+		1E994F3A20A1906C0055584D /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
 		1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		1EC831201EE6A70B00B44C91 /* EliminationGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EliminationGame.swift; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 				1EE8F676208DE0BB003A2390 /* MaxCoins.swift */,
 				1E994F3620A024DB0055584D /* DailyTemperatures.swift */,
 				1E994F3820A04E650055584D /* MinimumTime.swift */,
+				1E994F3A20A1906C0055584D /* MaxProduct.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				1EDA01A91F0CCE2C001FF412 /* DeleteOperation2Str.swift in Sources */,
 				1E7402D41EB30DBD00E1F0D6 /* RemoveDuplicate.swift in Sources */,
 				1E7402D61EB33F4D00E1F0D6 /* strStr.swift in Sources */,
+				1E994F3B20A1906C0055584D /* MaxProduct.swift in Sources */,
 				1ECAD9E91EE14688000DFC44 /* LengthLastWord.swift in Sources */,
 				1ECAD9EB1EE14BF4000DFC44 /* ThirdMaxNumber.swift in Sources */,
 				1EDA01C31F20AB95001FF412 /* ZumaGame4.swift in Sources */,
