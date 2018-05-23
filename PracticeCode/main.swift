@@ -8,10 +8,13 @@
 import Foundation
 
 
-var input = 20
+var input = [[0,1,0,0],
+             [1,1,1,0],
+             [0,1,0,0],
+             [0,1,0,0]]
 
-let solution = FizzBuzz()
-let ans = solution.fizzBuzz(input)
+let solution = IslandPerimeter()
+let ans = solution.islandPerimeter(input)
 
 
 print(ans)

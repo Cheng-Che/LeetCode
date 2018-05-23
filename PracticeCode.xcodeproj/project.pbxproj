@@ -31,6 +31,7 @@
 		1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402DB1EBB131400E1F0D6 /* FirstUniqueChar.swift */; };
 		1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */; };
 		1E75EAB320B51A9500E43CBB /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */; };
+		1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */; };
 		1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */; };
 		1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */; };
 		1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */; };
@@ -117,6 +118,7 @@
 		1E7402DB1EBB131400E1F0D6 /* FirstUniqueChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUniqueChar.swift; sourceTree = "<group>"; };
 		1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString2.swift; sourceTree = "<group>"; };
 		1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPerimeter.swift; sourceTree = "<group>"; };
 		1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				1E994F3820A04E650055584D /* MinimumTime.swift */,
 				1E994F3A20A1906C0055584D /* MaxProduct.swift */,
 				1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */,
+				1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */,
 				1E70F0E7207203900096790C /* DistributeCandies.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
+				1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */,
 				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,
 				1EE8F677208DE0BB003A2390 /* MaxCoins.swift in Sources */,
 				1E7402DA1EBAD66000E1F0D6 /* SumTwoIntegers.swift in Sources */,
