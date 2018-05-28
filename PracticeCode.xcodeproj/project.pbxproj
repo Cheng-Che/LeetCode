@@ -32,6 +32,7 @@
 		1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */; };
 		1E75EAB320B51A9500E43CBB /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */; };
 		1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */; };
+		1E75EAB720B7F1F100E43CBB /* SubdomainVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */; };
 		1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */; };
 		1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */; };
 		1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */; };
@@ -119,6 +120,7 @@
 		1E7402DE1EC0446400E1F0D6 /* ReverseString2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString2.swift; sourceTree = "<group>"; };
 		1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPerimeter.swift; sourceTree = "<group>"; };
+		1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubdomainVisits.swift; sourceTree = "<group>"; };
 		1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				1E994F3A20A1906C0055584D /* MaxProduct.swift */,
 				1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */,
 				1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */,
+				1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */,
 				1E70F0DB206B68540096790C /* UpdateBoard.swift in Sources */,
 				1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */,
+				1E75EAB720B7F1F100E43CBB /* SubdomainVisits.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1E70F0E5206DE9370096790C /* SetMismatch.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,

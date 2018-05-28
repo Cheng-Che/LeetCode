@@ -8,13 +8,10 @@
 import Foundation
 
 
-var input = [[0,1,0,0],
-             [1,1,1,0],
-             [0,1,0,0],
-             [0,1,0,0]]
+var input = ["900 gmail.com" , "12 leet.com", "7 mail.com"]
 
-let solution = IslandPerimeter()
-let ans = solution.islandPerimeter(input)
+let solution = SubdomainVisits()
+let ans = solution.subdomainVisits(input)
 
 
 print(ans)
