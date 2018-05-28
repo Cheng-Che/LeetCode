@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
+var input = "I speak Goat Latin"
 
-let solution = ToeplitzMatrix()
-let ans = solution.isToeplitzMatrix(input)
+let solution = GoatLatin()
+let ans = solution.toGoatLatin(input)
 
 
 print(ans)

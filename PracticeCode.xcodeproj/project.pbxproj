@@ -34,6 +34,7 @@
 		1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */; };
 		1E75EAB720B7F1F100E43CBB /* SubdomainVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */; };
 		1E75EAB920BBE4D000E43CBB /* ToeplitzMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB820BBE4D000E43CBB /* ToeplitzMatrix.swift */; };
+		1E75EABB20BC019A00E43CBB /* GoatLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EABA20BC019A00E43CBB /* GoatLatin.swift */; };
 		1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */; };
 		1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */; };
 		1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */; };
@@ -123,6 +124,7 @@
 		1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPerimeter.swift; sourceTree = "<group>"; };
 		1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubdomainVisits.swift; sourceTree = "<group>"; };
 		1E75EAB820BBE4D000E43CBB /* ToeplitzMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToeplitzMatrix.swift; sourceTree = "<group>"; };
+		1E75EABA20BC019A00E43CBB /* GoatLatin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoatLatin.swift; sourceTree = "<group>"; };
 		1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 				1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */,
 				1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */,
 				1E75EAB820BBE4D000E43CBB /* ToeplitzMatrix.swift */,
+				1E75EABA20BC019A00E43CBB /* GoatLatin.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				1EDA01A51F0CC27F001FF412 /* ReverseString.swift in Sources */,
 				1E70F0E1206CDF1F0096790C /* PowerOfThree.swift in Sources */,
 				1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */,
+				1E75EABB20BC019A00E43CBB /* GoatLatin.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
 				1E70F0D7206A18950096790C /* AddDigits.swift in Sources */,
