@@ -1,3 +1,32 @@
+## Goat Latin
+A sentence S is given, composed of words separated by spaces. Each word consists of lowercase and uppercase letters only.
+We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.)
+The rules of Goat Latin are as follows:
+If a word begins with a vowel (a, e, i, o, or u), append "ma" to the end of the word.
+For example, the word 'apple' becomes 'applema'.
+If a word begins with a consonant (i.e. not a vowel), remove the first letter and append it to the end, then add "ma".
+For example, the word "goat" becomes "oatgma".
+Add one letter 'a' to the end of each word per its word index in the sentence, starting with 1.
+For example, the first word gets "a" added to the end, the second word gets "aa" added to the end and so on.
+Return the final sentence representing the conversion from S to Goat Latin. 
+
+## Toeplitz Matrix
+A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
+Now given an M x N matrix, return True if and only if the matrix is Toeplitz.
+Example 1:
+Input: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
+Output: True
+Explanation:
+1234
+5123
+9512
+
+Example 2:
+Input: matrix = [[1,2],[2,2]]
+Output: False
+Explanation:
+The diagonal "[1, 2]" has different elements.
+
 ## Subdomain Visit Count
 A website domain like "discuss.leetcode.com" consists of various subdomains. At the top level, we have "com", at the next level, we have "leetcode.com", and at the lowest level, "discuss.leetcode.com". When we visit a domain like "discuss.leetcode.com", we will also visit the parent domains "leetcode.com" and "com" implicitly.
 
