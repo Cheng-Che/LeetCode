@@ -33,6 +33,7 @@
 		1E75EAB320B51A9500E43CBB /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */; };
 		1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */; };
 		1E75EAB720B7F1F100E43CBB /* SubdomainVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */; };
+		1E75EAB920BBE4D000E43CBB /* ToeplitzMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75EAB820BBE4D000E43CBB /* ToeplitzMatrix.swift */; };
 		1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */; };
 		1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */; };
 		1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */; };
@@ -121,6 +122,7 @@
 		1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPerimeter.swift; sourceTree = "<group>"; };
 		1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubdomainVisits.swift; sourceTree = "<group>"; };
+		1E75EAB820BBE4D000E43CBB /* ToeplitzMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToeplitzMatrix.swift; sourceTree = "<group>"; };
 		1E7AADA61F25CAE0000BD3C3 /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		1E7AADAD1F2725E4000BD3C3 /* RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		1E7AADAF1F272D84000BD3C3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				1E75EAB220B51A9500E43CBB /* FizzBuzz.swift */,
 				1E75EAB420B53CE700E43CBB /* IslandPerimeter.swift */,
 				1E75EAB620B7F1F100E43CBB /* SubdomainVisits.swift */,
+				1E75EAB820BBE4D000E43CBB /* ToeplitzMatrix.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				1E70F0D32068C85E0096790C /* MaxAreaIsland.swift in Sources */,
 				1EB909A81EAF2C7900A43CE1 /* TwoSum.swift in Sources */,
 				1E7402D81EB83F1B00E1F0D6 /* MoveZeros.swift in Sources */,
+				1E75EAB920BBE4D000E43CBB /* ToeplitzMatrix.swift in Sources */,
 				1EE8F649207CBE10003A2390 /* CanConstruct.swift in Sources */,
 				1E70F0E9207212BB0096790C /* LetterCasePermutation.swift in Sources */,
 				1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */,

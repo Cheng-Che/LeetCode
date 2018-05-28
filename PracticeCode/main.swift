@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = ["900 gmail.com" , "12 leet.com", "7 mail.com"]
+var input = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
 
-let solution = SubdomainVisits()
-let ans = solution.subdomainVisits(input)
+let solution = ToeplitzMatrix()
+let ans = solution.isToeplitzMatrix(input)
 
 
 print(ans)
