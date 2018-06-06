@@ -28,7 +28,6 @@ class BackspaceCompare {
                 t.append(ch)
             }
         }
-        
         return s == t
     }
 }

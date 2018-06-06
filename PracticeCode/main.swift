@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = "ab##"
-var input2 = "aab#dfe#"
-let solution = BackspaceCompare()
-let ans = solution.backspaceCompare(input, input2)
+var input = 13
+var input2 = 10
+let solution = BeautifulArrangement2()
+let ans = solution.constructArray(input, input2)
 
 
 print(ans)
