@@ -1,3 +1,86 @@
+## Escape The Ghosts
+You are playing a simplified Pacman game. You start at the point (0, 0), and your destination is (target[0], target[1]). There are several ghosts on the map, the i-th ghost starts at (ghosts[i][0], ghosts[i][1]).
+
+Each turn, you and all ghosts simultaneously *may* move in one of 4 cardinal directions: north, east, west, or south, going from the previous point to a new point 1 unit of distance away.
+
+You escape if and only if you can reach the target before any ghost reaches you (for any given moves the ghosts may take.)  If you reach any square (including the target) at the same time as a ghost, it doesn't count as an escape.
+
+Return True if and only if it is possible to escape.
+
+Example 1:
+Input: 
+ghosts = [[1, 0], [0, 3]]
+target = [0, 1]
+Output: true
+Explanation: 
+You can directly reach the destination (0, 1) at time 1, while the ghosts located at (1, 0) or (0, 3) have no way to catch up with you.
+Example 2:
+Input: 
+ghosts = [[1, 0]]
+target = [2, 0]
+Output: false
+Explanation: 
+You need to reach the destination (2, 0), but the ghost at (1, 0) lies between you and the destination.
+Example 3:
+Input: 
+ghosts = [[2, 0]]
+target = [1, 0]
+Output: false
+Explanation: 
+The ghost can reach the target at the same time as you.
+Note:
+
+All points have coordinates with absolute value <= 10000.
+The number of ghosts will not exceed 100.
+
+## Beautiful Arrangement II
+Given two integers n and k, you need to construct a list which contains n different positive integers ranging from 1 to n and obeys the following requirement: 
+Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... , |an-1 - an|] has exactly k distinct integers.
+
+If there are multiple answers, print any of them.
+
+Example 1:
+Input: n = 3, k = 1
+Output: [1, 2, 3]
+Explanation: The [1, 2, 3] has three different positive integers ranging from 1 to 3, and the [1, 1] has exactly 1 distinct integer: 1.
+Example 2:
+Input: n = 3, k = 2
+Output: [1, 3, 2]
+Explanation: The [1, 3, 2] has three different positive integers ranging from 1 to 3, and the [2, 1] has exactly 2 distinct integers: 1 and 2.
+Note:
+The n and k are in the range 1 <= k < n <= 104.
+
+## Backspace String Compare
+Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+
+Example 1:
+
+Input: S = "ab#c", T = "ad#c"
+Output: true
+Explanation: Both S and T become "ac".
+Example 2:
+
+Input: S = "ab##", T = "c#d#"
+Output: true
+Explanation: Both S and T become "".
+Example 3:
+
+Input: S = "a##c", T = "#a#c"
+Output: true
+Explanation: Both S and T become "c".
+Example 4:
+
+Input: S = "a#c", T = "b"
+Output: false
+Explanation: S becomes "c" while T becomes "b".
+ 
+
+Note:
+
+1 <= S.length <= 200
+1 <= T.length <= 200
+S and T only contain lowercase letters and '#' characters.
+
 ## Contains Duplicate
 Given an array of integers, find if the array contains any duplicates.
 
