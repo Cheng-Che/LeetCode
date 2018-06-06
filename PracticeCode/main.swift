@@ -8,10 +8,9 @@
 import Foundation
 
 
-var input = "I speak Goat Latin"
-
-let solution = GoatLatin()
-let ans = solution.toGoatLatin(input)
+var input = [9,10,12]
+let solution = AssignCookie()
+let ans = solution.findContentChildren(input, [10,18,18])
 
 
 print(ans)
