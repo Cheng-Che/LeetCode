@@ -1,3 +1,21 @@
+## Contains Duplicate
+Given an array of integers, find if the array contains any duplicates.
+
+Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+
+Example 1:
+
+Input: [1,2,3,1]
+Output: true
+Example 2:
+
+Input: [1,2,3,4]
+Output: false
+Example 3:
+
+Input: [1,1,1,3,3,4,3,2,4,2]
+Output: true
+
 ## Assign Cookies
 Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child i has a greed factor gi, which is the minimum size of a cookie that the child will be content with; and each cookie j has a size sj. If sj >= gi, we can assign the cookie j to the child i, and the child i will be content. Your goal is to maximize the number of your content children and output the maximum number.
 
