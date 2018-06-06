@@ -67,6 +67,7 @@
 		1ECAD9FB1EE68379000DFC44 /* LicenseKeyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAD9FA1EE68379000DFC44 /* LicenseKeyFormatting.swift */; };
 		1ED54A7720C68B7400DC4A99 /* AssignCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A7620C68B7400DC4A99 /* AssignCookie.swift */; };
 		1ED54A7920C78A6B00DC4A99 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A7820C78A6B00DC4A99 /* ContainsDuplicate.swift */; };
+		1ED54A7B20C78D9700DC4A99 /* BackspaceCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A7A20C78D9700DC4A99 /* BackspaceCompare.swift */; };
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
 		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
 		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
@@ -159,6 +160,7 @@
 		1ECAD9FA1EE68379000DFC44 /* LicenseKeyFormatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseKeyFormatting.swift; sourceTree = "<group>"; };
 		1ED54A7620C68B7400DC4A99 /* AssignCookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookie.swift; sourceTree = "<group>"; };
 		1ED54A7820C78A6B00DC4A99 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		1ED54A7A20C78D9700DC4A99 /* BackspaceCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackspaceCompare.swift; sourceTree = "<group>"; };
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
 		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				1E75EABA20BC019A00E43CBB /* GoatLatin.swift */,
 				1ED54A7620C68B7400DC4A99 /* AssignCookie.swift */,
 				1ED54A7820C78A6B00DC4A99 /* ContainsDuplicate.swift */,
+				1ED54A7A20C78D9700DC4A99 /* BackspaceCompare.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */,
 				1E70F0E7207203900096790C /* DistributeCandies.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
+				1ED54A7B20C78D9700DC4A99 /* BackspaceCompare.swift in Sources */,
 				1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */,
 				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,
 				1EE8F677208DE0BB003A2390 /* MaxCoins.swift in Sources */,

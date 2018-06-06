@@ -8,9 +8,10 @@
 import Foundation
 
 
-var input = [9,10,12]
-let solution = AssignCookie()
-let ans = solution.findContentChildren(input, [10,18,18])
+var input = "ab##"
+var input2 = "aab#dfe#"
+let solution = BackspaceCompare()
+let ans = solution.backspaceCompare(input, input2)
 
 
 print(ans)
