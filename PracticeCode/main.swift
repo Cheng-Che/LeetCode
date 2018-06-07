@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = 13
-var input2 = 10
-let solution = BeautifulArrangement2()
-let ans = solution.constructArray(input, input2)
+var input = 3
+var input2 = 9
+let solution = CombinationSum3()
+let ans = solution.combinationSum3(input, input2)
 
 
 print(ans)
