@@ -71,6 +71,10 @@
 		1ED54A7D20C7C43800DC4A99 /* BeautifulArrangement2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A7C20C7C43800DC4A99 /* BeautifulArrangement2.swift */; };
 		1ED54A7F20C7DB4800DC4A99 /* EscapeGhosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A7E20C7DB4800DC4A99 /* EscapeGhosts.swift */; };
 		1ED54A8120C8E65800DC4A99 /* CombinationSum3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8020C8E65800DC4A99 /* CombinationSum3.swift */; };
+		1ED54A8320CA6C4100DC4A99 /* KeysKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8220CA6C4100DC4A99 /* KeysKeyboard.swift */; };
+		1ED54A8520CE2E4700DC4A99 /* ContainsDuplicate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8420CE2E4700DC4A99 /* ContainsDuplicate2.swift */; };
+		1ED54A8720CE600300DC4A99 /* FindAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */; };
+		1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */; };
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
 		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
 		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
@@ -167,6 +171,10 @@
 		1ED54A7C20C7C43800DC4A99 /* BeautifulArrangement2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulArrangement2.swift; sourceTree = "<group>"; };
 		1ED54A7E20C7DB4800DC4A99 /* EscapeGhosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeGhosts.swift; sourceTree = "<group>"; };
 		1ED54A8020C8E65800DC4A99 /* CombinationSum3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum3.swift; sourceTree = "<group>"; };
+		1ED54A8220CA6C4100DC4A99 /* KeysKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysKeyboard.swift; sourceTree = "<group>"; };
+		1ED54A8420CE2E4700DC4A99 /* ContainsDuplicate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate2.swift; sourceTree = "<group>"; };
+		1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAnagrams.swift; sourceTree = "<group>"; };
+		1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
 		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
@@ -295,6 +303,10 @@
 				1ED54A7C20C7C43800DC4A99 /* BeautifulArrangement2.swift */,
 				1ED54A7E20C7DB4800DC4A99 /* EscapeGhosts.swift */,
 				1ED54A8020C8E65800DC4A99 /* CombinationSum3.swift */,
+				1ED54A8220CA6C4100DC4A99 /* KeysKeyboard.swift */,
+				1ED54A8420CE2E4700DC4A99 /* ContainsDuplicate2.swift */,
+				1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */,
+				1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -368,6 +380,7 @@
 				1E7402DF1EC0446400E1F0D6 /* ReverseString2.swift in Sources */,
 				1E7402D21EB1CD9A00E1F0D6 /* countAndSay.swift in Sources */,
 				1E70F0D12068A2C90096790C /* FindDifference.swift in Sources */,
+				1ED54A8320CA6C4100DC4A99 /* KeysKeyboard.swift in Sources */,
 				1ECAD9FB1EE68379000DFC44 /* LicenseKeyFormatting.swift in Sources */,
 				1ED54A8120C8E65800DC4A99 /* CombinationSum3.swift in Sources */,
 				1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */,
@@ -375,6 +388,7 @@
 				1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */,
 				1E7AADB61F2875F5000BD3C3 /* CountSegments.swift in Sources */,
 				1E70F0E3206DE0700096790C /* PowerofTwo.swift in Sources */,
+				1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */,
 				1EE8F675208DB49F003A2390 /* NumRabbits.swift in Sources */,
 				1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */,
 				1E70F0D52069F7720096790C /* DetectCapitalUse.swift in Sources */,
@@ -406,12 +420,14 @@
 				1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */,
 				1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */,
 				1E70F0DB206B68540096790C /* UpdateBoard.swift in Sources */,
+				1ED54A8520CE2E4700DC4A99 /* ContainsDuplicate2.swift in Sources */,
 				1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */,
 				1E75EAB720B7F1F100E43CBB /* SubdomainVisits.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
 				1E70F0E5206DE9370096790C /* SetMismatch.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
+				1ED54A8720CE600300DC4A99 /* FindAnagrams.swift in Sources */,
 				1EC831271EF26CFE00B44C91 /* Subsets.swift in Sources */,
 				1E70F0CD206230E50096790C /* 4Sum2.swift in Sources */,
 				1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */,
