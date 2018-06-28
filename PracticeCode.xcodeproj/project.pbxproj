@@ -75,6 +75,7 @@
 		1ED54A8520CE2E4700DC4A99 /* ContainsDuplicate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8420CE2E4700DC4A99 /* ContainsDuplicate2.swift */; };
 		1ED54A8720CE600300DC4A99 /* FindAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */; };
 		1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */; };
+		1ED54A8B20E346E500DC4A99 /* BuddyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */; };
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
 		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
 		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
@@ -175,6 +176,7 @@
 		1ED54A8420CE2E4700DC4A99 /* ContainsDuplicate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate2.swift; sourceTree = "<group>"; };
 		1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAnagrams.swift; sourceTree = "<group>"; };
 		1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyStrings.swift; sourceTree = "<group>"; };
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
 		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 				1ED54A8420CE2E4700DC4A99 /* ContainsDuplicate2.swift */,
 				1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */,
 				1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */,
+				1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				1ED54A8320CA6C4100DC4A99 /* KeysKeyboard.swift in Sources */,
 				1ECAD9FB1EE68379000DFC44 /* LicenseKeyFormatting.swift in Sources */,
 				1ED54A8120C8E65800DC4A99 /* CombinationSum3.swift in Sources */,
+				1ED54A8B20E346E500DC4A99 /* BuddyStrings.swift in Sources */,
 				1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */,
 				1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */,
 				1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */,
