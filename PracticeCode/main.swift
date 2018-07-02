@@ -8,12 +8,11 @@
 import Foundation
 
 
-var input = "bahc"
-var input2 = "cagb"
+var input = [1,0]
 
 
-let solution = BuddyStrings()
-let ans = solution.buddyStrings(input, input2)
+let solution = MaxDistToClosest()
+let ans = solution.maxDistToClosest(input)
 
 print(ans)
 

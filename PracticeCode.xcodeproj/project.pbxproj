@@ -76,6 +76,8 @@
 		1ED54A8720CE600300DC4A99 /* FindAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */; };
 		1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */; };
 		1ED54A8B20E346E500DC4A99 /* BuddyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */; };
+		1ED54A9A20EA0FBD00DC4A99 /* RelativeRanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A9920EA0FBD00DC4A99 /* RelativeRanks.swift */; };
+		1ED54A9C20EA22BC00DC4A99 /* MaxDistToClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A9B20EA22BC00DC4A99 /* MaxDistToClosest.swift */; };
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
 		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
 		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
@@ -177,6 +179,8 @@
 		1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAnagrams.swift; sourceTree = "<group>"; };
 		1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyStrings.swift; sourceTree = "<group>"; };
+		1ED54A9920EA0FBD00DC4A99 /* RelativeRanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeRanks.swift; sourceTree = "<group>"; };
+		1ED54A9B20EA22BC00DC4A99 /* MaxDistToClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDistToClosest.swift; sourceTree = "<group>"; };
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
 		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
@@ -226,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				1E3678AB1EADE1E6001EB9BF /* main.swift */,
+				1ED54A9B20EA22BC00DC4A99 /* MaxDistToClosest.swift */,
 				1EB909A71EAF2C7900A43CE1 /* TwoSum.swift */,
 				1EB909AA1EB0709200A43CE1 /* SearchInsertPosition.swift */,
 				1E7402D11EB1CD9A00E1F0D6 /* countAndSay.swift */,
@@ -310,6 +315,7 @@
 				1ED54A8620CE600300DC4A99 /* FindAnagrams.swift */,
 				1ED54A8820CFAA8A00DC4A99 /* RotateImage.swift */,
 				1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */,
+				1ED54A9920EA0FBD00DC4A99 /* RelativeRanks.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -428,6 +434,7 @@
 				1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */,
 				1E75EAB720B7F1F100E43CBB /* SubdomainVisits.swift in Sources */,
 				1ECAD9E31EE00FD1000DFC44 /* UglyNumber.swift in Sources */,
+				1ED54A9A20EA0FBD00DC4A99 /* RelativeRanks.swift in Sources */,
 				1E70F0E5206DE9370096790C /* SetMismatch.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
@@ -456,6 +463,7 @@
 				1EC8312B1EF3DAE100B44C91 /* IntegerBreak.swift in Sources */,
 				1ECAD9F11EE29FB7000DFC44 /* SingleNum3.swift in Sources */,
 				1E994F3720A024DB0055584D /* DailyTemperatures.swift in Sources */,
+				1ED54A9C20EA22BC00DC4A99 /* MaxDistToClosest.swift in Sources */,
 				1E7AADB81F287F38000BD3C3 /* BeautifulArrangement.swift in Sources */,
 				1ED54A7D20C7C43800DC4A99 /* BeautifulArrangement2.swift in Sources */,
 			);
