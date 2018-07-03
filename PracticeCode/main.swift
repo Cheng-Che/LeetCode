@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = [1,0]
+var input = "leetcode"
 
 
-let solution = MaxDistToClosest()
-let ans = solution.maxDistToClosest(input)
+let solution = ReverseVowels()
+let ans = solution.reverseVowels(input)
 
 print(ans)
 
