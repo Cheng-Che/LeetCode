@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = "leetcode"
+var input = [[2,3],[3,4],[4,5]]
 
 
-let solution = ReverseVowels()
-let ans = solution.reverseVowels(input)
+let solution = LongestChain()
+let ans = solution.findLongestChain(input)
 
 print(ans)
 

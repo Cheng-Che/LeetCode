@@ -79,6 +79,9 @@
 		1ED54A9A20EA0FBD00DC4A99 /* RelativeRanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A9920EA0FBD00DC4A99 /* RelativeRanks.swift */; };
 		1ED54A9C20EA22BC00DC4A99 /* MaxDistToClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A9B20EA22BC00DC4A99 /* MaxDistToClosest.swift */; };
 		1ED54A9E20EB27AF00DC4A99 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A9D20EB27AF00DC4A99 /* ReverseVowels.swift */; };
+		1ED54AA020EB556100DC4A99 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54A9F20EB556100DC4A99 /* MaxConsecutiveOnes.swift */; };
+		1ED54AA220EB5B2A00DC4A99 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54AA120EB5B2A00DC4A99 /* MajorityElement.swift */; };
+		1ED54AA420EB690400DC4A99 /* LongestChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED54AA320EB690400DC4A99 /* LongestChain.swift */; };
 		1EDA01981F0B7A9F001FF412 /* MaxProduct3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */; };
 		1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */; };
 		1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA01A21F0CBDF7001FF412 /* NimGame.swift */; };
@@ -183,6 +186,9 @@
 		1ED54A9920EA0FBD00DC4A99 /* RelativeRanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeRanks.swift; sourceTree = "<group>"; };
 		1ED54A9B20EA22BC00DC4A99 /* MaxDistToClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDistToClosest.swift; sourceTree = "<group>"; };
 		1ED54A9D20EB27AF00DC4A99 /* ReverseVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
+		1ED54A9F20EB556100DC4A99 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		1ED54AA120EB5B2A00DC4A99 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		1ED54AA320EB690400DC4A99 /* LongestChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestChain.swift; sourceTree = "<group>"; };
 		1EDA01971F0B7A9F001FF412 /* MaxProduct3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxProduct3N.swift; sourceTree = "<group>"; };
 		1EDA01A01F0CB7EB001FF412 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		1EDA01A21F0CBDF7001FF412 /* NimGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame.swift; sourceTree = "<group>"; };
@@ -319,6 +325,9 @@
 				1ED54A8A20E346E500DC4A99 /* BuddyStrings.swift */,
 				1ED54A9920EA0FBD00DC4A99 /* RelativeRanks.swift */,
 				1ED54A9D20EB27AF00DC4A99 /* ReverseVowels.swift */,
+				1ED54A9F20EB556100DC4A99 /* MaxConsecutiveOnes.swift */,
+				1ED54AA120EB5B2A00DC4A99 /* MajorityElement.swift */,
+				1ED54AA320EB690400DC4A99 /* LongestChain.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -396,10 +405,12 @@
 				1ECAD9FB1EE68379000DFC44 /* LicenseKeyFormatting.swift in Sources */,
 				1ED54A8120C8E65800DC4A99 /* CombinationSum3.swift in Sources */,
 				1ED54A8B20E346E500DC4A99 /* BuddyStrings.swift in Sources */,
+				1ED54AA420EB690400DC4A99 /* LongestChain.swift in Sources */,
 				1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */,
 				1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */,
 				1EDA01A11F0CB7EB001FF412 /* MissingNumber.swift in Sources */,
 				1E7AADB61F2875F5000BD3C3 /* CountSegments.swift in Sources */,
+				1ED54AA020EB556100DC4A99 /* MaxConsecutiveOnes.swift in Sources */,
 				1E70F0E3206DE0700096790C /* PowerofTwo.swift in Sources */,
 				1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */,
 				1EE8F675208DB49F003A2390 /* NumRabbits.swift in Sources */,
@@ -470,6 +481,7 @@
 				1ED54A9C20EA22BC00DC4A99 /* MaxDistToClosest.swift in Sources */,
 				1E7AADB81F287F38000BD3C3 /* BeautifulArrangement.swift in Sources */,
 				1ED54A7D20C7C43800DC4A99 /* BeautifulArrangement2.swift in Sources */,
+				1ED54AA220EB5B2A00DC4A99 /* MajorityElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
