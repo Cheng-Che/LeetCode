@@ -1,3 +1,15 @@
+## Reverse Vowels of a String
+Write a function that takes a string as input and reverse only the vowels of a string.
+
+Example 1:
+Given s = "hello", return "holle".
+
+Example 2:
+Given s = "leetcode", return "leotcede".
+
+Note:
+The vowels does not include the letter "y".
+
 ## Maximize Distance to Closest Person
 In a row of seats, 1 represents a person sitting in that seat, and 0 represents that the seat is empty. 
 
