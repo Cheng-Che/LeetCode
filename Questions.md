@@ -1,3 +1,42 @@
+## Majority Element
+Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+
+You may assume that the array is non-empty and the majority element always exist in the array.
+
+Example 1:
+
+Input: [3,2,3]
+Output: 3
+Example 2:
+
+Input: [2,2,1,1,1,2,2]
+Output: 2
+
+## Max Consecutive Ones
+Given a binary array, find the maximum number of consecutive 1s in this array.
+
+Example 1:
+Input: [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s.
+    The maximum number of consecutive 1s is 3.
+Note:
+
+The input array will only contain 0 and 1.
+The length of input array is a positive integer and will not exceed 10,000
+
+## Reverse Vowels of a String
+Write a function that takes a string as input and reverse only the vowels of a string.
+
+Example 1:
+Given s = "hello", return "holle".
+
+Example 2:
+Given s = "leetcode", return "leotcede".
+
+Note:
+The vowels does not include the letter "y".
+
 ## Maximize Distance to Closest Person
 In a row of seats, 1 represents a person sitting in that seat, and 0 represents that the seat is empty. 
 
