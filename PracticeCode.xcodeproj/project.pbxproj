@@ -96,6 +96,7 @@
 		1EE8F649207CBE10003A2390 /* CanConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8F648207CBE10003A2390 /* CanConstruct.swift */; };
 		1EE8F675208DB49F003A2390 /* NumRabbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8F674208DB49F003A2390 /* NumRabbits.swift */; };
 		1EE8F677208DE0BB003A2390 /* MaxCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8F676208DE0BB003A2390 /* MaxCoins.swift */; };
+		1EF11C9421086B2400782C63 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF11C9321086B2400782C63 /* AddStrings.swift */; };
 		1EF60FE02060DD77001A9AFA /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */; };
 		1EF60FE22060FBCC001A9AFA /* FindPoisonedDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */; };
 /* End PBXBuildFile section */
@@ -203,6 +204,7 @@
 		1EE8F648207CBE10003A2390 /* CanConstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanConstruct.swift; sourceTree = "<group>"; };
 		1EE8F674208DB49F003A2390 /* NumRabbits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumRabbits.swift; sourceTree = "<group>"; };
 		1EE8F676208DE0BB003A2390 /* MaxCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCoins.swift; sourceTree = "<group>"; };
+		1EF11C9321086B2400782C63 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
 		1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
 		1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPoisonedDuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -328,6 +330,7 @@
 				1ED54A9F20EB556100DC4A99 /* MaxConsecutiveOnes.swift */,
 				1ED54AA120EB5B2A00DC4A99 /* MajorityElement.swift */,
 				1ED54AA320EB690400DC4A99 /* LongestChain.swift */,
+				1EF11C9321086B2400782C63 /* AddStrings.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				1EC831271EF26CFE00B44C91 /* Subsets.swift in Sources */,
 				1E70F0CD206230E50096790C /* 4Sum2.swift in Sources */,
 				1EDA01AB1F0E15DE001FF412 /* MinMoves2.swift in Sources */,
+				1EF11C9421086B2400782C63 /* AddStrings.swift in Sources */,
 				1E70F0E7207203900096790C /* DistributeCandies.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
 				1ED54A7B20C78D9700DC4A99 /* BackspaceCompare.swift in Sources */,
