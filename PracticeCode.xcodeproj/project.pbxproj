@@ -97,6 +97,7 @@
 		1EE8F675208DB49F003A2390 /* NumRabbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8F674208DB49F003A2390 /* NumRabbits.swift */; };
 		1EE8F677208DE0BB003A2390 /* MaxCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8F676208DE0BB003A2390 /* MaxCoins.swift */; };
 		1EF11C9421086B2400782C63 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF11C9321086B2400782C63 /* AddStrings.swift */; };
+		1EF11C96210B014D00782C63 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF11C95210B014D00782C63 /* ClimbingStairs.swift */; };
 		1EF60FE02060DD77001A9AFA /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */; };
 		1EF60FE22060FBCC001A9AFA /* FindPoisonedDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */; };
 /* End PBXBuildFile section */
@@ -205,6 +206,7 @@
 		1EE8F674208DB49F003A2390 /* NumRabbits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumRabbits.swift; sourceTree = "<group>"; };
 		1EE8F676208DE0BB003A2390 /* MaxCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCoins.swift; sourceTree = "<group>"; };
 		1EF11C9321086B2400782C63 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
+		1EF11C95210B014D00782C63 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 		1EF60FDF2060DD77001A9AFA /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
 		1EF60FE12060FBCC001A9AFA /* FindPoisonedDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPoisonedDuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -331,6 +333,7 @@
 				1ED54AA120EB5B2A00DC4A99 /* MajorityElement.swift */,
 				1ED54AA320EB690400DC4A99 /* LongestChain.swift */,
 				1EF11C9321086B2400782C63 /* AddStrings.swift */,
+				1EF11C95210B014D00782C63 /* ClimbingStairs.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				1E994F3920A04E650055584D /* MinimumTime.swift in Sources */,
 				1ECAD9DF1EDFF09E000DFC44 /* Base7.swift in Sources */,
 				1ED54A7F20C7DB4800DC4A99 /* EscapeGhosts.swift in Sources */,
+				1EF11C96210B014D00782C63 /* ClimbingStairs.swift in Sources */,
 				1E7AADB01F272D84000BD3C3 /* Pascal'sTriangle.swift in Sources */,
 				1EC831291EF3869000B44C91 /* SpiralMatrix2.swift in Sources */,
 				1ECAD9F71EE545A4000DFC44 /* MagicalString.swift in Sources */,

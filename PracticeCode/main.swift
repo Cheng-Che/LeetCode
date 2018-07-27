@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = "925101087184894"
+var input = 10
 
 
-let solution = AddStrings()
-let ans = solution.addStrings(input, "3896737933784656127")
+let solution = ClimbStairs()
+let ans = solution.climbStairs(input)
 
 print(ans)
 
