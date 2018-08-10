@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = 10
+var input = "200+020(3)0-409"
 
 
-let solution = ClimbStairs()
-let ans = solution.climbStairs(input)
+let solution = MaskPII()
+let ans = solution.maskPII(input)
 
 print(ans)
 

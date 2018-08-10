@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
+		1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */; };
+		1E56E259211D793000158102 /* MaskPII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E258211D793000158102 /* MaskPII.swift */; };
 		1E70F0CD206230E50096790C /* 4Sum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CC206230E50096790C /* 4Sum2.swift */; };
 		1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */; };
 		1E70F0D12068A2C90096790C /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D02068A2C90096790C /* FindDifference.swift */; };
@@ -117,6 +119,8 @@
 /* Begin PBXFileReference section */
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderedPowerOf2.swift; sourceTree = "<group>"; };
+		1E56E258211D793000158102 /* MaskPII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPII.swift; sourceTree = "<group>"; };
 		1E70F0CC206230E50096790C /* 4Sum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum2.swift; sourceTree = "<group>"; };
 		1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSmallestLetter.swift; sourceTree = "<group>"; };
 		1E70F0D02068A2C90096790C /* FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifference.swift; sourceTree = "<group>"; };
@@ -334,6 +338,8 @@
 				1ED54AA320EB690400DC4A99 /* LongestChain.swift */,
 				1EF11C9321086B2400782C63 /* AddStrings.swift */,
 				1EF11C95210B014D00782C63 /* ClimbingStairs.swift */,
+				1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */,
+				1E56E258211D793000158102 /* MaskPII.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -448,6 +454,7 @@
 				1ED54A7920C78A6B00DC4A99 /* ContainsDuplicate.swift in Sources */,
 				1EE8F647207CAD2F003A2390 /* SingleNumber.swift in Sources */,
 				1EF60FE02060DD77001A9AFA /* BaseballGame.swift in Sources */,
+				1E56E259211D793000158102 /* MaskPII.swift in Sources */,
 				1ECAD9F31EE2B769000DFC44 /* FindDuplicates.swift in Sources */,
 				1EDA01B91F160382001FF412 /* SingleNonDuplicate.swift in Sources */,
 				1ED54A9E20EB27AF00DC4A99 /* ReverseVowels.swift in Sources */,
@@ -475,6 +482,7 @@
 				1E7AADA71F25CAE0000BD3C3 /* HappyNumber.swift in Sources */,
 				1EDA01A51F0CC27F001FF412 /* ReverseString.swift in Sources */,
 				1E70F0E1206CDF1F0096790C /* PowerOfThree.swift in Sources */,
+				1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */,
 				1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */,
 				1E75EABB20BC019A00E43CBB /* GoatLatin.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,

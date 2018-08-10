@@ -16,7 +16,6 @@ class ClimbStairs {
         if n <= 3{
             res = n
         }else{
-            res = 5
             for _ in 3..<n{
                 res = n1 + n2
                 n2 = n1
