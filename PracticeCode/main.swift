@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = "200+020(3)0-409"
+var input = 0
 
 
-let solution = MaskPII()
-let ans = solution.maskPII(input)
+let solution = GrayCode()
+let ans = solution.grayCode(input)
 
 print(ans)
 
