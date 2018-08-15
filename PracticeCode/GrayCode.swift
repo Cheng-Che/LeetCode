@@ -18,9 +18,7 @@ class GrayCode {
             return res
         }
         var outRes = res
-        var outCul:[Int] = []
- 
-        outCul.append(Int(truncating: NSDecimalNumber(decimal: Decimal(pow(2, Double(start-1))))))
+        var outCul:[Int] = [Int(truncating: NSDecimalNumber(decimal: Decimal(pow(2, Double(start-1)))))]
         for i in cul.reversed(){
             outCul.append(-i)
         }

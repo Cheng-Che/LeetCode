@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = 0
+var input = "()()()()(()(()()))"
 
 
-let solution = GrayCode()
-let ans = solution.grayCode(input)
+let solution = ScoreParentheses()
+let ans = solution.scoreOfParentheses(input)
 
 print(ans)
 
