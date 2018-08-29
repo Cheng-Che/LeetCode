@@ -8,11 +8,12 @@
 import Foundation
 
 
-var input = "()()()()(()(()()))"
+var input = [2]
 
 
-let solution = ScoreParentheses()
-let ans = solution.scoreOfParentheses(input)
+
+let solution = HouseRobber()
+let ans = solution.rob(input)
 
 print(ans)
 
