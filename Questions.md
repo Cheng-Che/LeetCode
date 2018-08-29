@@ -1,3 +1,89 @@
+## House Robber
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+
+Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
+
+Example 1:
+
+Input: [1,2,3,1]
+Output: 4
+Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
+             Total amount you can rob = 1 + 3 = 4.
+Example 2:
+
+Input: [2,7,9,3,1]
+Output: 12
+Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
+             Total amount you can rob = 2 + 9 + 1 = 12.
+             
+## Spiral Matrix III
+On a 2 dimensional grid with R rows and C columns, we start at (r0, c0) facing east.
+
+Here, the north-west corner of the grid is at the first row and column, and the south-east corner of the grid is at the last row and column.
+
+Now, we walk in a clockwise spiral shape to visit every position in this grid. 
+
+Whenever we would move outside the boundary of the grid, we continue our walk outside the grid (but may return to the grid boundary later.) 
+
+Eventually, we reach all R * C spaces of the grid.
+
+Return a list of coordinates representing the positions of the grid in the order they were visited.
+
+ 
+
+Example 1:
+
+Input: R = 1, C = 4, r0 = 0, c0 = 0
+Output: [[0,0],[0,1],[0,2],[0,3]]
+
+
+ 
+
+Example 2:
+
+Input: R = 5, C = 6, r0 = 1, c0 = 4
+Output: [[1,4],[1,5],[2,5],[2,4],[2,3],[1,3],[0,3],[0,4],[0,5],[3,5],[3,4],[3,3],[3,2],[2,2],[1,2],[0,2],[4,5],[4,4],[4,3],[4,2],[4,1],[3,1],[2,1],[1,1],[0,1],[4,0],[3,0],[2,0],[1,0],[0,0]]
+
+
+
+Note:
+
+1 <= R <= 100
+1 <= C <= 100
+0 <= r0 < R
+0 <= c0 < C
+
+## Keys and Rooms
+There are N rooms and you start in room 0.  Each room has a distinct number in 0, 1, 2, ..., N-1, and each room may have some keys to access the next room. 
+
+Formally, each room i has a list of keys rooms[i], and each key rooms[i][j] is an integer in [0, 1, ..., N-1] where N = rooms.length.  A key rooms[i][j] = v opens the room with number v.
+
+Initially, all the rooms start locked (except for room 0). 
+
+You can walk back and forth between rooms freely.
+
+Return true if and only if you can enter every room.
+
+Example 1:
+
+Input: [[1],[2],[3],[]]
+Output: true
+Explanation:  
+We start in room 0, and pick up key 1.
+We then go to room 1, and pick up key 2.
+We then go to room 2, and pick up key 3.
+We then go to room 3.  Since we were able to go to every room, we return true.
+Example 2:
+
+Input: [[1,3],[3,0,1],[2],[0]]
+Output: false
+Explanation: We can't enter the room with number 2.
+Note:
+
+1 <= rooms.length <= 1000
+0 <= rooms[i].length <= 1000
+The number of keys in all rooms combined is at most 3000.
+
 ## Score of Parentheses
 Given a balanced parentheses string S, compute the score of the string based on the following rule:
 
