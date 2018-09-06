@@ -8,12 +8,12 @@
 import Foundation
 
 
-var input = [2]
+var input = ["a", "b", "c", "d"]
 
 
 
-let solution = HouseRobber()
-let ans = solution.rob(input)
+let solution = NumSpecialEquivGroups()
+let ans = solution.numSpecialEquivGroups(input)
 
 print(ans)
 
