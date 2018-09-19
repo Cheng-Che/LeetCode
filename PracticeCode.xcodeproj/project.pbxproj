@@ -16,6 +16,9 @@
 		1E56E26121254C4100158102 /* SpiralMatrix3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E26021254C4100158102 /* SpiralMatrix3.swift */; };
 		1E5B1DF52133DDEA00E42569 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1DF42133DDEA00E42569 /* HouseRobber.swift */; };
 		1E5B1DFF213FCE8300E42569 /* NumSpecialEquivGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1DFE213FCE8300E42569 /* NumSpecialEquivGroups.swift */; };
+		1E5B1E012148EEB400E42569 /* ShortestToChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1E002148EEB400E42569 /* ShortestToChar.swift */; };
+		1E5B1E092150FEE100E42569 /* ReverseWords2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1E082150FEE100E42569 /* ReverseWords2.swift */; };
+		1E5B1E0B2152244E00E42569 /* FindDisappearedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1E0A2152244E00E42569 /* FindDisappearedNumbers.swift */; };
 		1E70F0CD206230E50096790C /* 4Sum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CC206230E50096790C /* 4Sum2.swift */; };
 		1E70F0CF2064F3B70096790C /* FindSmallestLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */; };
 		1E70F0D12068A2C90096790C /* FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F0D02068A2C90096790C /* FindDifference.swift */; };
@@ -133,6 +136,9 @@
 		1E56E26021254C4100158102 /* SpiralMatrix3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix3.swift; sourceTree = "<group>"; };
 		1E5B1DF42133DDEA00E42569 /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		1E5B1DFE213FCE8300E42569 /* NumSpecialEquivGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumSpecialEquivGroups.swift; sourceTree = "<group>"; };
+		1E5B1E002148EEB400E42569 /* ShortestToChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestToChar.swift; sourceTree = "<group>"; };
+		1E5B1E082150FEE100E42569 /* ReverseWords2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords2.swift; sourceTree = "<group>"; };
+		1E5B1E0A2152244E00E42569 /* FindDisappearedNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDisappearedNumbers.swift; sourceTree = "<group>"; };
 		1E70F0CC206230E50096790C /* 4Sum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum2.swift; sourceTree = "<group>"; };
 		1E70F0CE2064F3B70096790C /* FindSmallestLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSmallestLetter.swift; sourceTree = "<group>"; };
 		1E70F0D02068A2C90096790C /* FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDifference.swift; sourceTree = "<group>"; };
@@ -358,6 +364,9 @@
 				1E56E26021254C4100158102 /* SpiralMatrix3.swift */,
 				1E5B1DF42133DDEA00E42569 /* HouseRobber.swift */,
 				1E5B1DFE213FCE8300E42569 /* NumSpecialEquivGroups.swift */,
+				1E5B1E002148EEB400E42569 /* ShortestToChar.swift */,
+				1E5B1E082150FEE100E42569 /* ReverseWords2.swift */,
+				1E5B1E0A2152244E00E42569 /* FindDisappearedNumbers.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -443,6 +452,7 @@
 				1E7AADB61F2875F5000BD3C3 /* CountSegments.swift in Sources */,
 				1ED54AA020EB556100DC4A99 /* MaxConsecutiveOnes.swift in Sources */,
 				1E70F0E3206DE0700096790C /* PowerofTwo.swift in Sources */,
+				1E5B1E0B2152244E00E42569 /* FindDisappearedNumbers.swift in Sources */,
 				1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */,
 				1EE8F675208DB49F003A2390 /* NumRabbits.swift in Sources */,
 				1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */,
@@ -487,6 +497,7 @@
 				1ED54A9A20EA0FBD00DC4A99 /* RelativeRanks.swift in Sources */,
 				1E70F0E5206DE9370096790C /* SetMismatch.swift in Sources */,
 				1E5B1DFF213FCE8300E42569 /* NumSpecialEquivGroups.swift in Sources */,
+				1E5B1E092150FEE100E42569 /* ReverseWords2.swift in Sources */,
 				1E56E25F2124081A00158102 /* KeysRooms.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,
@@ -497,6 +508,7 @@
 				1EF11C9421086B2400782C63 /* AddStrings.swift in Sources */,
 				1E70F0E7207203900096790C /* DistributeCandies.swift in Sources */,
 				1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */,
+				1E5B1E012148EEB400E42569 /* ShortestToChar.swift in Sources */,
 				1ED54A7B20C78D9700DC4A99 /* BackspaceCompare.swift in Sources */,
 				1E75EAB520B53CE700E43CBB /* IslandPerimeter.swift in Sources */,
 				1ECAD9ED1EE158D7000DFC44 /* CountPrimes.swift in Sources */,

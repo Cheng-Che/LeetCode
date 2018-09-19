@@ -8,12 +8,12 @@
 import Foundation
 
 
-var input = ["a", "b", "c", "d"]
+var input :[Int] = []
 
 
 
-let solution = NumSpecialEquivGroups()
-let ans = solution.numSpecialEquivGroups(input)
+let solution = FindDisappearedNumbers()
+let ans = solution.findDisappearedNumbers(input)
 
 print(ans)
 
