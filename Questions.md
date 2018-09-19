@@ -1,3 +1,41 @@
+## Find All Numbers Disappeared in an Array
+Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+
+Find all the elements of [1, n] inclusive that do not appear in this array.
+
+Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
+
+Example:
+
+Input:
+[4,3,2,7,8,2,3,1]
+
+Output:
+[5,6]
+
+## Reverse Words in a String III
+Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+Example 1:
+Input: "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+Note: In the string, each word is separated by single space and there will not be any extra space in the string.
+
+## Shortest Distance to a Character
+Given a string S and a character C, return an array of integers representing the shortest distance from the character C in the string.
+
+Example 1:
+
+Input: S = "loveleetcode", C = 'e'
+Output: [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
+ 
+
+Note:
+
+S string length is in [1, 10000].
+C is a single character, and guaranteed to be in string S.
+All letters in S and C are lowercase.
+
 ## Groups of Special-Equivalent Strings
 You are given an array A of strings.
 
