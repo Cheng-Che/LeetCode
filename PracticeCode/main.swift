@@ -8,12 +8,12 @@
 import Foundation
 
 
-var input :[Int] = []
+var input :[Int] = [1,2,2,2,2,2,2,3]
 
 
 
-let solution = FindDisappearedNumbers()
-let ans = solution.findDisappearedNumbers(input)
+let solution = FirstMissingPositive()
+let ans = solution.firstMissingPositive(input)
 
 print(ans)
 

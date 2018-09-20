@@ -10,7 +10,7 @@ import Foundation
 
 class DeleteOperation2Str {
     func minDistance(_ word1: String, _ word2: String) -> Int {
-        let array1 = word1.characters.map({ String($0) })
+        let array1 = word1.map({ String($0) })
         var i = 1
         var match = ""
         while i<array1.count{ //開頭的差異
@@ -18,7 +18,7 @@ class DeleteOperation2Str {
             if word2.contains(array1[i]){  //找出該開頭以下的所有字串
                 var k = i+1
                 if let range = temp.range(of: array1[i]){
-                    temp = temp.substring(with: Range<String.Index>(range.lowerBound..<temp.endIndex))
+                    temp = String(temp[range.lowerBound..<temp.endIndex])
                 }
                 
                 while k<array1.count{
@@ -26,15 +26,14 @@ class DeleteOperation2Str {
                     var j = k
                     while j<array1.count{
                         if let range = temp.range(of: array1[j]){
-                            temp = temp.substring(with: Range<String.Index>(range.lowerBound..<temp.endIndex))
+                            temp = String(temp[range.lowerBound..<temp.endIndex])
                         }
                         if temp.contains(array1[j]){
                             matchTemp.append(array1[j])
                         }
                         j+=1
                     }
-                    print(matchTemp)
-                    if matchTemp.characters.count > match.characters.count{
+                    if matchTemp.count > match.count{
                         match.removeAll()
                         match.append(matchTemp)
                     }
@@ -45,6 +44,6 @@ class DeleteOperation2Str {
         }
         print(match)
         
-        return word1.characters.count + word2.characters.count - 2*(match.characters.count)
+        return word1.count + word2.count - 2*(match.count)
     }
 }

@@ -9,6 +9,6 @@
 import Foundation
 class Lastword {
     func lengthOfLastWord(_ s: String) -> Int {
-        return (s.trimmingCharacters(in: .whitespaces).components(separatedBy: " ").last?.characters.count)!
+        return (s.trimmingCharacters(in: .whitespaces).components(separatedBy: " ").last?.count)!
     }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
+		1E53874B21537D550098D8D0 /* FirstMissingPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */; };
 		1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */; };
 		1E56E259211D793000158102 /* MaskPII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E258211D793000158102 /* MaskPII.swift */; };
 		1E56E25B21217CA300158102 /* GrayCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E25A21217CA300158102 /* GrayCode.swift */; };
@@ -128,6 +129,7 @@
 /* Begin PBXFileReference section */
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMissingPositive.swift; sourceTree = "<group>"; };
 		1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderedPowerOf2.swift; sourceTree = "<group>"; };
 		1E56E258211D793000158102 /* MaskPII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPII.swift; sourceTree = "<group>"; };
 		1E56E25A21217CA300158102 /* GrayCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayCode.swift; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 				1E5B1E002148EEB400E42569 /* ShortestToChar.swift */,
 				1E5B1E082150FEE100E42569 /* ReverseWords2.swift */,
 				1E5B1E0A2152244E00E42569 /* FindDisappearedNumbers.swift */,
+				1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
 				1E70F0D7206A18950096790C /* AddDigits.swift in Sources */,
+				1E53874B21537D550098D8D0 /* FirstMissingPositive.swift in Sources */,
 				1E7402DC1EBB131400E1F0D6 /* FirstUniqueChar.swift in Sources */,
 				1ECAD9EF1EE2845C000DFC44 /* ReverseInteger.swift in Sources */,
 				1EDA01B31F14ACB3001FF412 /* FrequencySort.swift in Sources */,
