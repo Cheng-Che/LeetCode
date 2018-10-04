@@ -8,12 +8,10 @@
 import Foundation
 
 
-var input :[Int] = [1,2,2,2,2,2,2,3]
+var input  = ["abc","deq","mee","aqq","dkd","ccc"]
 
 
 
-let solution = FirstMissingPositive()
-let ans = solution.firstMissingPositive(input)
-
+let solution = FindAndReplacePattern()
+let ans = solution.findAndReplacePattern(input, "aba")
 print(ans)
-
