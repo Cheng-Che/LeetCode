@@ -1,3 +1,122 @@
+## Find and Replace Pattern
+You have a list of words and a pattern, and you want to know which words in words matches the pattern.
+
+A word matches the pattern if there exists a permutation of letters p so that after replacing every letter x in the pattern with p(x), we get the desired word.
+
+(Recall that a permutation of letters is a bijection from letters to letters: every letter maps to another letter, and no two letters map to the same letter.)
+
+Return a list of the words in words that match the given pattern. 
+
+You may return the answer in any order.
+
+ 
+
+Example 1:
+
+Input: words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb"
+Output: ["mee","aqq"]
+Explanation: "mee" matches the pattern because there is a permutation {a -> m, b -> e, ...}. 
+"ccc" does not match the pattern because {a -> c, b -> c, ...} is not a permutation,
+since a and b map to the same letter.
+ 
+
+Note:
+
+1 <= words.length <= 50
+1 <= pattern.length = words[i].length <= 20
+
+## X of a Kind in a Deck of Cards
+In a deck of cards, each card has an integer written on it.
+
+Return true if and only if you can choose X >= 2 such that it is possible to split the entire deck into 1 or more groups of cards, where:
+
+Each group has exactly X cards.
+All the cards in each group have the same integer.
+ 
+
+Example 1:
+
+Input: [1,2,3,4,4,3,2,1]
+Output: true
+Explanation: Possible partition [1,1],[2,2],[3,3],[4,4]
+Example 2:
+
+Input: [1,1,1,2,2,2,3,3]
+Output: false
+Explanation: No possible partition.
+Example 3:
+
+Input: [1]
+Output: false
+Explanation: No possible partition.
+Example 4:
+
+Input: [1,1]
+Output: true
+Explanation: Possible partition [1,1]
+Example 5:
+
+Input: [1,1,2,2,2,2]
+Output: true
+Explanation: Possible partition [1,1],[2,2],[2,2]
+
+Note:
+
+1 <= deck.length <= 10000
+0 <= deck[i] < 10000
+
+## Max Increase to Keep City Skyline
+In a 2 dimensional array grid, each value grid[i][j] represents the height of a building located there. We are allowed to increase the height of any number of buildings, by any amount (the amounts can be different for different buildings). Height 0 is considered to be a building as well. 
+
+At the end, the "skyline" when viewed from all four directions of the grid, i.e. top, bottom, left, and right, must be the same as the skyline of the original grid. A city's skyline is the outer contour of the rectangles formed by all the buildings when viewed from a distance. See the following example.
+
+What is the maximum total sum that the height of the buildings can be increased?
+
+Example:
+Input: grid = [[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,0]]
+Output: 35
+Explanation: 
+The grid is:
+[ [3, 0, 8, 4], 
+  [2, 4, 5, 7],
+  [9, 2, 6, 3],
+  [0, 3, 1, 0] ]
+
+The skyline viewed from top or bottom is: [9, 4, 8, 7]
+The skyline viewed from left or right is: [8, 7, 9, 3]
+
+The grid after increasing the height of buildings without affecting skylines is:
+
+gridNew = [ [8, 4, 8, 7],
+            [7, 4, 7, 7],
+            [9, 4, 8, 7],
+            [3, 3, 3, 3] ]
+
+Notes:
+
+1 < grid.length = grid[0].length <= 50.
+All heights grid[i][j] are in the range [0, 100].
+All buildings in grid[i][j] occupy the entire grid cell: that is, they are a 1 x 1 x grid[i][j] rectangular prism.
+
+## First Missing Positive
+Given an unsorted integer array, find the smallest missing positive integer.
+
+Example 1:
+
+Input: [1,2,0]
+Output: 3
+Example 2:
+
+Input: [3,4,-1,1]
+Output: 2
+Example 3:
+
+Input: [7,8,9,11,12]
+Output: 1
+Note:
+
+Your algorithm should run in O(n) time and uses constant extra space.
+
 ## Find All Numbers Disappeared in an Array
 Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 
