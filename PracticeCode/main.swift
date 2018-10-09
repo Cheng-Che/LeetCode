@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
+var input = [5,5,10,10,5]
 
 
 
-let solution = FlipAndInvertImage()
-let ans = solution.flipAndInvertImage(input)
+let solution = LemonadeChange()
+let ans = solution.lemonadeChange(input)
 print(ans)
