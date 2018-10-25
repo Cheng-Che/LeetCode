@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = [0,1,3,6,10,13,15,18]
+var input = ["eat","tea","tan","ate","nat","bat"]
 
 
 
-let solution = FrogJump()
-let ans = solution.canCross(input)
+let solution = GroupAnagrams()
+let ans = solution.groupAnagrams(input)
 print(ans)
