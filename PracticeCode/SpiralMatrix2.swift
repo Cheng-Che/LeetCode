@@ -37,7 +37,6 @@ class SpiralMatrix2{
         while num <= n*n{
             //平(第二次開始insert)
             for _ in 0..<repeatPlus{
-                
                 ans[i].insert(num, at: (toRight == true) ? hp : vp)
                 hp+=1
                 num+=1
@@ -53,7 +52,6 @@ class SpiralMatrix2{
             hp = vp
             toRight = !toRight
         }
-       
         return ans
     }
 }

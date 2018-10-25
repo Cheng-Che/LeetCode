@@ -10,7 +10,6 @@ import Foundation
 
 class RemoveDuplicate {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-
         var j = 1
         for i in 0..<nums.count{
             if i>0 && nums[i] != nums[i-1]{
@@ -20,7 +19,6 @@ class RemoveDuplicate {
         }
         return j > nums.count ? nums.count : j
     }
-    
 }
 
 /* Wrong answer :Memory Limit Exceeded

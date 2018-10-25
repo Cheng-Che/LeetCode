@@ -9,6 +9,6 @@
 import Foundation
 class CountSegments {
     func countSegments(_ s: String) -> Int {
-        return s.characters.split(separator: " ").map(String.init).count
+        return s.split(separator: " ").map(String.init).count
     }
 }

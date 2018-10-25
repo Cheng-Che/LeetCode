@@ -10,7 +10,7 @@ import Foundation
 
 class ReverseString2 {
     func reverseStr(_ s: String, _ k: Int) -> String {
-        var stringArray = s.characters.map({ String($0) })
+        var stringArray = s.map({ String($0) })
         var ans:String = ""
         var i = 0
         if k <= 0 {return "Length of the given string and k will in the range [1, 10000]"}

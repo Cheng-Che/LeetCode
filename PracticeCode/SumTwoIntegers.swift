@@ -8,11 +8,9 @@
 
 import Foundation
 class SumTwoInt {
-    
     func getSum(_ a: Int, _ b: Int) -> Int {
         var x = a
         var y = b
-        
         while y != 0 {
             let c = (x&y)<<1
             x = x^y
@@ -20,7 +18,6 @@ class SumTwoInt {
         }
         return x
     }
-
 }
 
 /*  Another answer for small numbers

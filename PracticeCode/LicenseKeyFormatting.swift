@@ -10,7 +10,7 @@ import Foundation
 
 class LicenseKeyFormatting {
     func licenseKeyFormatting(_ S: String, _ K: Int) -> String {
-        var inputArray:[String] = S.uppercased().characters.map({ String($0) })
+        var inputArray:[String] = S.uppercased().map({ String($0) })
         var ans:String = ""
         var i = inputArray.count-1
         while i >= 0{
@@ -24,7 +24,7 @@ class LicenseKeyFormatting {
             }
             if j==K { ans.append("-") }
         }
-        ans.characters.removeLast()
-        return String(ans.characters.reversed())
+        ans.removeLast()
+        return String(ans.reversed())
     }
 }

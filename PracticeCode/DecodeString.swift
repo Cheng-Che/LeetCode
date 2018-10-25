@@ -12,7 +12,7 @@ class DecodeString {
     func decodeString(_ s: String) -> String {
         if s.contains("[") == false{ return s }
         
-        let stringArray = s.characters.map({ String($0) })
+        let stringArray = s.map({ String($0) })
         var startBracket = 0
         let endBracket = s.distance(from: s.startIndex, to: (s.range(of: "]")!.lowerBound))
         var repeatString = ""
@@ -32,7 +32,7 @@ class DecodeString {
                 for _ in 0..<Int(multiple)!-1{
                     repeatString.append(temp)
                 }
-                repeatString = String(repeatString.characters.reversed())
+                repeatString = String(repeatString.reversed())
                 break
             }
         }

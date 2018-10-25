@@ -23,5 +23,4 @@ class CountNumbersWithUniqueDigits {
         }
         return n<1 ? 1: total
     }
-
 }

@@ -13,7 +13,7 @@ class FrequencySort {
     func frequencySort(_ s: String) -> String {
         var ans = ""
         var items:[Character:Int] = [:]
-        for i in s.characters{
+        for i in s{
             items[i] = items[i] == nil ? 1 : items[i]!+1
         }
         

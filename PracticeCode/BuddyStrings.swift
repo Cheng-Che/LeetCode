@@ -55,8 +55,6 @@ class BuddyStrings {
                 }
             }
         }
-        
         return wordA.count == 0 ? true : false
-        
     }
 }

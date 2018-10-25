@@ -20,6 +20,6 @@ class Base7 {
             remainder = input % 7
             ans.append(input < 7 ? "\(input)" : "\(remainder)")
         }
-        return (num >= 0) ? String(ans.characters.reversed()) : "-" + String(ans.characters.reversed())
+        return (num >= 0) ? String(ans.reversed()) : "-" + String(ans.reversed())
     }
 }

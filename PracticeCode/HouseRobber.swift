@@ -21,5 +21,4 @@ class HouseRobber {
         
         return res.last!
     }
-    
 }

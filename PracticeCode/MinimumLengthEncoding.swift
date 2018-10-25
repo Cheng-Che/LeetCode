@@ -8,7 +8,6 @@
 
 import Foundation
 class MinimumLengthEncoding {
-
     func minimumLengthEncoding(_ words: [String]) -> Int {
         var count = 0
         let array:[String] = words.map({String($0.reversed())}).sorted()

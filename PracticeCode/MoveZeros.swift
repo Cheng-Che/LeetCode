@@ -16,12 +16,9 @@ class MoveZeros {
                 j += 1
             }
         }
-
         while j < nums.count {
             nums[j] = 0
             j += 1
         }
-        
-        print(nums)
     }
 }

@@ -9,7 +9,7 @@
 import Foundation
 class checkRecord {
     func checkRecord(_ s: String) -> Bool {
-        let array  = s.characters.map({ String($0) })
+        let array  = s.map({ String($0) })
         var aCount = 0
         var lateCount = 0
         

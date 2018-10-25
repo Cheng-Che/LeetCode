@@ -38,9 +38,7 @@ class MaxAreaIsland {
         if key-1 >= 0 && gridDict[key-1][num] == 1{
             result += helper(gridDict:&gridDict, key:key-1, num: num)
         }
-
         return result
     }
     
-
 }

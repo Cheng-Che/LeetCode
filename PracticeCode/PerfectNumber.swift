@@ -9,7 +9,6 @@
 import Foundation
 class PerfectNum {
     func checkPerfectNumber(_ num: Int) -> Bool {
-        
         if num <= 1 { return false }
         var factor = 1
         var i = 2
@@ -21,5 +20,4 @@ class PerfectNum {
         }
         return factor == num ? true : false
     }
-    
 }

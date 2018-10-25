@@ -8,7 +8,7 @@
 
 import Foundation
 
-class countPrimes {
+class CountPrimes {
     func countPrimes(_ n: Int) -> Int {
         if n <= 2 { return 0 }
         var notPrime:[Bool] = []

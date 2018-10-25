@@ -49,5 +49,4 @@ class RotateImage {
         }
         rotation(start:start+1, end: end-1 , matrix: &matrix)
     }
-    
 }

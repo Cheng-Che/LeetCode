@@ -31,5 +31,4 @@ class BaseballGame {
         }
         return result
     }
-    
 }

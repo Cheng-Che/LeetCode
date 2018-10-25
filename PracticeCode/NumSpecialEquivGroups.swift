@@ -11,7 +11,6 @@ import Foundation
 class NumSpecialEquivGroups {
     func numSpecialEquivGroups(_ A: [String]) -> Int {
         var res:[[Character]] = []
-    
         for str in A{
             let array = Array(str)
             var tempArray = ["", ""]

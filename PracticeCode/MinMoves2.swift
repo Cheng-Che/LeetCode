@@ -15,7 +15,6 @@ class MinMoves2 {
         for i in sorted{
             ans += abs(sorted[middle] - i)
         }
-
         return ans
     }
 }

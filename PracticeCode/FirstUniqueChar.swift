@@ -8,16 +8,14 @@
 
 import Foundation
 
-class FirstUniqueChar { //method time out
+class FirstUniqueChar {
     func firstUniqChar(_ s: String) -> Int {
-        let stringArray = s.characters.map({ String($0) })
+        let stringArray = s.map({ String($0) })
         var array:[String:Int] = [:]
         var ans:Int!
-        
         for i in 0..<stringArray.count{
             array[stringArray[i]] = array[stringArray[i]] == nil ? i : -1
         }
-        print(array)
         for bas in array{
             if bas.value >= 0{
                 if ans == nil || bas.value < ans{

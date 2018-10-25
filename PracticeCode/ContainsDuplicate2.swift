@@ -22,7 +22,6 @@ class ContainsDuplicate2 {
                 }
             }
         }
-
         return false
     }
 }

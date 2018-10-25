@@ -13,12 +13,9 @@ class ReorderedPowerOf2 {
         let stringN = String(N)
         let upper = Int(truncating: NSDecimalNumber(decimal: Decimal(pow(10, Double(stringN.count)))))
         let dictN:[Character:Int] = dictCul(input: stringN)
-        //var dictArray:[[Character:Int]] = []
         var i = 1
         while i < upper {
             if i >= upper/10{
-                print(i)
-                //dictArray.append(dictCul(input: "\(i)"))
                 if dictN == dictCul(input: "\(i)"){
                     return true
                 }

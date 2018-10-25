@@ -10,16 +10,21 @@ import Foundation
 
 class Racecar {
     func racecar(_ target: Int) -> Int {
-        print(helper(target: 20, lastNum: 0, n: 0))
-        return 1
-    }
-    
-    func helper(target:Double, lastNum:Double, n:Int) -> Int{
-        if target - (lastNum + pow(lastNum, 2)) < 0{
-            return Int(target)
+        var dp:[Int:Int] = [0:0]
+        for i in 1..<target + 1{
+            let num = log2(Double(i+1))
+            if num == Double(Int(num)){
+                dp[i] = Int(num)
+            }else{
+                for j in 0..<Int(num){
+                    let a = i - (1<<Int(num)-1) + (1<<j) - 1
+                    if a >= 0{
+                        dp[i] = dp[i] == nil ? Int(num)+j+2+dp[a]! : min(dp[i]!, Int(num)+j+2+dp[a]!)
+                    }
+                }
+                dp[i] = min(dp[i]!, Int(num+1) + 1 + dp[(1<<Int(num+1))-1-i]!)
+            }
         }
-        var temp = target
-        temp = temp - (lastNum + pow(lastNum, 2) )
-        return helper(target: temp, lastNum: lastNum + pow(lastNum, 2),n: n+1)
+        return dp[target]!
     }
 }

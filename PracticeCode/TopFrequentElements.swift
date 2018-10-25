@@ -22,8 +22,6 @@ class TopKFrequent {
                 count += 1
             }
         }
- 
         return res
     }
-    
 }
