@@ -1,3 +1,67 @@
+## Frog Jump
+A frog is crossing a river. The river is divided into x units and at each unit there may or may not exist a stone. The frog can jump on a stone, but it must not jump into the water.
+
+Given a list of stones' positions (in units) in sorted ascending order, determine if the frog is able to cross the river by landing on the last stone. Initially, the frog is on the first stone and assume the first jump must be 1 unit.
+
+If the frog's last jump was k units, then its next jump must be either k - 1, k, or k + 1 units. Note that the frog can only jump in the forward direction.
+
+Note:
+
+The number of stones is ≥ 2 and is < 1,100.
+Each stone's position will be a non-negative integer < 231.
+The first stone's position is always 0.
+Example 1:
+
+[0,1,3,5,6,8,12,17]
+
+There are a total of 8 stones.
+The first stone at the 0th unit, second stone at the 1st unit,
+third stone at the 3rd unit, and so on...
+The last stone at the 17th unit.
+
+Return true. The frog can jump to the last stone by jumping 
+1 unit to the 2nd stone, then 2 units to the 3rd stone, then 
+2 units to the 4th stone, then 3 units to the 6th stone, 
+4 units to the 7th stone, and 5 units to the 8th stone.
+Example 2:
+
+[0,1,2,3,4,8,9,11]
+
+Return false. There is no way to jump to the last stone as 
+the gap between the 5th and 6th stone is too large.
+
+## Race Car
+Your car starts at position 0 and speed +1 on an infinite number line.  (Your car can go into negative positions.)
+
+Your car drives automatically according to a sequence of instructions A (accelerate) and R (reverse).
+
+When you get an instruction "A", your car does the following: position += speed, speed *= 2.
+
+When you get an instruction "R", your car does the following: if your speed is positive then speed = -1 , otherwise speed = 1.  (Your position stays the same.)
+
+For example, after commands "AAR", your car goes to positions 0->1->3->3, and your speed goes to 1->2->4->-1.
+
+Now for some target position, say the length of the shortest sequence of instructions to get there.
+
+Example 1:
+Input: 
+target = 3
+Output: 2
+Explanation: 
+The shortest instruction sequence is "AA".
+Your position goes from 0->1->3.
+Example 2:
+Input: 
+target = 6
+Output: 5
+Explanation: 
+The shortest instruction sequence is "AAARA".
+Your position goes from 0->1->3->7->7->6.
+ 
+Note:
+
+1 <= target <= 10000.
+
 ## Short Encoding of Words
 Given a list of words, we may encode it by writing a reference string S and a list of indexes A.
 
