@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E303515218845B200D67C41 /* NumUniqueEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E303514218845B200D67C41 /* NumUniqueEmails.swift */; };
+		1E3035172188534000D67C41 /* JudgeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3035162188534000D67C41 /* JudgeCircle.swift */; };
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
 		1E53874B21537D550098D8D0 /* FirstMissingPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */; };
 		1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */; };
@@ -137,6 +139,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E303514218845B200D67C41 /* NumUniqueEmails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumUniqueEmails.swift; sourceTree = "<group>"; };
+		1E3035162188534000D67C41 /* JudgeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeCircle.swift; sourceTree = "<group>"; };
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMissingPositive.swift; sourceTree = "<group>"; };
@@ -400,6 +404,8 @@
 				1E69031B216F30BE00851362 /* Racecar.swift */,
 				1E69036E2179BE5300851362 /* FrogJump.swift */,
 				1EF8512B2181BBE30059B2C4 /* GroupAnagrams.swift */,
+				1E303514218845B200D67C41 /* NumUniqueEmails.swift */,
+				1E3035162188534000D67C41 /* JudgeCircle.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -479,6 +485,7 @@
 				1E5B1DF52133DDEA00E42569 /* HouseRobber.swift in Sources */,
 				1ED54A8120C8E65800DC4A99 /* CombinationSum3.swift in Sources */,
 				1ED54A8B20E346E500DC4A99 /* BuddyStrings.swift in Sources */,
+				1E3035172188534000D67C41 /* JudgeCircle.swift in Sources */,
 				1ED54AA420EB690400DC4A99 /* LongestChain.swift in Sources */,
 				1EDA01A31F0CBDF7001FF412 /* NimGame.swift in Sources */,
 				1ECAD9F91EE55B16000DFC44 /* SingleNum2.swift in Sources */,
@@ -537,6 +544,7 @@
 				1E69031C216F30BE00851362 /* Racecar.swift in Sources */,
 				1E5B1DFF213FCE8300E42569 /* NumSpecialEquivGroups.swift in Sources */,
 				1E5B1E092150FEE100E42569 /* ReverseWords2.swift in Sources */,
+				1E303515218845B200D67C41 /* NumUniqueEmails.swift in Sources */,
 				1E56E25F2124081A00158102 /* KeysRooms.swift in Sources */,
 				1EB909AB1EB0709200A43CE1 /* SearchInsertPosition.swift in Sources */,
 				1ECAD9F51EE5322D000DFC44 /* NextGreater2.swift in Sources */,

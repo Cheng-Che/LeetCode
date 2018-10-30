@@ -8,10 +8,10 @@
 import Foundation
 
 
-var input = ["eat","tea","tan","ate","nat","bat"]
+var input = ["test.email+alex@leetcode.com","testeqmail@leetcode.com","testemail+david@lee.tcode.com"]
 
 
 
-let solution = GroupAnagrams()
-let ans = solution.groupAnagrams(input)
+let solution = NumUniqueEmails()
+let ans = solution.numUniqueEmails(input)
 print(ans)
