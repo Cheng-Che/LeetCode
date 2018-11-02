@@ -11,6 +11,7 @@
 		1E3035172188534000D67C41 /* JudgeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3035162188534000D67C41 /* JudgeCircle.swift */; };
 		1E30351921885BF500D67C41 /* CustomSortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351821885BF500D67C41 /* CustomSortString.swift */; };
 		1E30351B2189894300D67C41 /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351A2189894300D67C41 /* RobotSim.swift */; };
+		1E30351D218C21CD00D67C41 /* ReplaceWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351C218C21CD00D67C41 /* ReplaceWords.swift */; };
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
 		1E53874B21537D550098D8D0 /* FirstMissingPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */; };
 		1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */; };
@@ -145,6 +146,7 @@
 		1E3035162188534000D67C41 /* JudgeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeCircle.swift; sourceTree = "<group>"; };
 		1E30351821885BF500D67C41 /* CustomSortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSortString.swift; sourceTree = "<group>"; };
 		1E30351A2189894300D67C41 /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
+		1E30351C218C21CD00D67C41 /* ReplaceWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWords.swift; sourceTree = "<group>"; };
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMissingPositive.swift; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 				1E3035162188534000D67C41 /* JudgeCircle.swift */,
 				1E30351821885BF500D67C41 /* CustomSortString.swift */,
 				1E30351A2189894300D67C41 /* RobotSim.swift */,
+				1E30351C218C21CD00D67C41 /* ReplaceWords.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -579,6 +582,7 @@
 				1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */,
 				1E75EABB20BC019A00E43CBB /* GoatLatin.swift in Sources */,
 				1E69030E2163470E00851362 /* HasGroupsSizeX.swift in Sources */,
+				1E30351D218C21CD00D67C41 /* ReplaceWords.swift in Sources */,
 				1ECAD9E71EE13967000DFC44 /* PerfectNumber.swift in Sources */,
 				1EC831211EE6A70B00B44C91 /* EliminationGame.swift in Sources */,
 				1E70F0D7206A18950096790C /* AddDigits.swift in Sources */,
