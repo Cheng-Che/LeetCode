@@ -12,6 +12,7 @@
 		1E30351921885BF500D67C41 /* CustomSortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351821885BF500D67C41 /* CustomSortString.swift */; };
 		1E30351B2189894300D67C41 /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351A2189894300D67C41 /* RobotSim.swift */; };
 		1E30351D218C21CD00D67C41 /* ReplaceWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351C218C21CD00D67C41 /* ReplaceWords.swift */; };
+		1E30351F218C453F00D67C41 /* MinFallingPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351E218C453F00D67C41 /* MinFallingPathSum.swift */; };
 		1E3678AC1EADE1E6001EB9BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3678AB1EADE1E6001EB9BF /* main.swift */; };
 		1E53874B21537D550098D8D0 /* FirstMissingPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */; };
 		1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56E256211C351E00158102 /* ReorderedPowerOf2.swift */; };
@@ -147,6 +148,7 @@
 		1E30351821885BF500D67C41 /* CustomSortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSortString.swift; sourceTree = "<group>"; };
 		1E30351A2189894300D67C41 /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
 		1E30351C218C21CD00D67C41 /* ReplaceWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWords.swift; sourceTree = "<group>"; };
+		1E30351E218C453F00D67C41 /* MinFallingPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinFallingPathSum.swift; sourceTree = "<group>"; };
 		1E3678A81EADE1E6001EB9BF /* PracticeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3678AB1EADE1E6001EB9BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1E53874A21537D550098D8D0 /* FirstMissingPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMissingPositive.swift; sourceTree = "<group>"; };
@@ -415,6 +417,7 @@
 				1E30351821885BF500D67C41 /* CustomSortString.swift */,
 				1E30351A2189894300D67C41 /* RobotSim.swift */,
 				1E30351C218C21CD00D67C41 /* ReplaceWords.swift */,
+				1E30351E218C453F00D67C41 /* MinFallingPathSum.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -594,6 +597,7 @@
 				1ECAD9F11EE29FB7000DFC44 /* SingleNum3.swift in Sources */,
 				1E994F3720A024DB0055584D /* DailyTemperatures.swift in Sources */,
 				1E56E26121254C4100158102 /* SpiralMatrix3.swift in Sources */,
+				1E30351F218C453F00D67C41 /* MinFallingPathSum.swift in Sources */,
 				1ED54A9C20EA22BC00DC4A99 /* MaxDistToClosest.swift in Sources */,
 				1E7AADB81F287F38000BD3C3 /* BeautifulArrangement.swift in Sources */,
 				1ED54A7D20C7C43800DC4A99 /* BeautifulArrangement2.swift in Sources */,
