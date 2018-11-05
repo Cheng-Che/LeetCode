@@ -1,3 +1,42 @@
+## Minimum Falling Path Sum
+Given a square array of integers A, we want the minimum sum of a falling path through A.
+
+A falling path starts at any element in the first row, and chooses one element from each row.  The next row's choice must be in a column that is different from the previous row's column by at most one.
+
+Example 1:
+
+Input: [[1,2,3],[4,5,6],[7,8,9]]
+Output: 12
+Explanation: 
+The possible falling paths are:
+[1,4,7], [1,4,8], [1,5,7], [1,5,8], [1,5,9]
+[2,4,7], [2,4,8], [2,5,7], [2,5,8], [2,5,9], [2,6,8], [2,6,9]
+[3,5,7], [3,5,8], [3,5,9], [3,6,8], [3,6,9]
+The falling path with the smallest sum is [1,4,7], so the answer is 12.
+
+Note:
+
+1 <= A.length == A[0].length <= 100
+-100 <= A[i][j] <= 100
+
+## Replace Words
+In English, we have a concept called root, which can be followed by some other words to form another longer word - let's call this word successor. For example, the root an, followed by other, which can form another word another.
+
+Now, given a dictionary consisting of many roots and a sentence. You need to replace all the successor in the sentence with the root forming it. If a successor has many roots can form it, replace it with the root with the shortest length.
+
+You need to output the sentence after the replacement.
+
+Example 1:
+Input: dict = ["cat", "bat", "rat"]
+sentence = "the cattle was rattled by the battery"
+Output: "the cat was rat by the bat"
+Note:
+The input will only have lower-case letters.
+1 <= dict words number <= 1000
+1 <= sentence words number <= 1000
+1 <= root length <= 100
+1 <= sentence words length <= 1000
+
 ## Walking Robot Simulation
 A robot on an infinite grid starts at point (0, 0) and faces north.  The robot can receive one of three possible types of commands:
 
@@ -24,7 +63,6 @@ Output: 65
 Explanation: robot will be stuck at (1, 4) before turning left and going to (1, 8)
 
 Note:
-
 0 <= commands.length <= 10000
 0 <= obstacles.length <= 10000
 -30000 <= obstacle[i][0] <= 30000
