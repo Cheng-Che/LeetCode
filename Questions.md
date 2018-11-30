@@ -1,3 +1,49 @@
+## DI String Match
+Given a string S that only contains "I" (increase) or "D" (decrease), let N = S.length.
+Return any permutation A of [0, 1, ..., N] such that for all i = 0, ..., N-1:
+
+If S[i] == "I", then A[i] < A[i+1]
+If S[i] == "D", then A[i] > A[i+1]
+ 
+Example 1:
+Input: "IDID"
+Output: [0,4,1,3,2]
+
+Example 2:
+Input: "III"
+Output: [0,1,2,3]
+
+Example 3:
+
+Input: "DDI"
+Output: [3,2,0,1]
+ 
+
+Note:
+
+1 <= S.length <= 10000
+S only contains characters "I" or "D".
+
+## Reorder Log Files
+You have an array of logs.  Each log is a space delimited string of words.
+For each log, the first word in each log is an alphanumeric identifier.  Then, either:
+Each word after the identifier will consist only of lowercase letters, or;
+Each word after the identifier will consist only of digits.
+We will call these two varieties of logs letter-logs and digit-logs.  It is guaranteed that each log has at least one word after its identifier.
+Reorder the logs so that all of the letter-logs come before any digit-log.  The letter-logs are ordered lexicographically ignoring identifier, with the identifier used in case of ties.  The digit-logs should be put in their original order.
+Return the final order of the logs.
+
+Example 1:
+
+Input: ["a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"]
+Output: ["g1 act car","a8 act zoo","ab1 off key dog","a1 9 2 3 1","zo4 4 7"]
+
+Note:
+
+0 <= logs.length <= 100
+3 <= logs[i].length <= 100
+logs[i] is guaranteed to have an identifier, and a word after the identifier.
+
 ## Minimum Falling Path Sum
 Given a square array of integers A, we want the minimum sum of a falling path through A.
 
