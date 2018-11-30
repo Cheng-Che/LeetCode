@@ -10,13 +10,13 @@ import Foundation
 
 class FirstUniqueChar {
     func firstUniqChar(_ s: String) -> Int {
-        let stringArray = s.map({ String($0) })
-        var array:[String:Int] = [:]
+        let stringArray = Array(s)
+        var dict:[Character:Int] = [:]
         var ans:Int!
         for i in 0..<stringArray.count{
-            array[stringArray[i]] = array[stringArray[i]] == nil ? i : -1
+            dict[stringArray[i]] = dict[stringArray[i]] == nil ? i : -1
         }
-        for bas in array{
+        for bas in dict{
             if bas.value >= 0{
                 if ans == nil || bas.value < ans{
                     ans = bas.value

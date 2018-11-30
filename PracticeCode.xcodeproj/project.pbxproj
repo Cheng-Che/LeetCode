@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1DC7F9219D54D600B9560E /* ReorderLogFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */; };
+		1E1DCC7321B11A8300B9560E /* DiStringMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */; };
 		1E303515218845B200D67C41 /* NumUniqueEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E303514218845B200D67C41 /* NumUniqueEmails.swift */; };
 		1E3035172188534000D67C41 /* JudgeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3035162188534000D67C41 /* JudgeCircle.swift */; };
 		1E30351921885BF500D67C41 /* CustomSortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351821885BF500D67C41 /* CustomSortString.swift */; };
@@ -143,6 +145,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderLogFiles.swift; sourceTree = "<group>"; };
+		1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiStringMatch.swift; sourceTree = "<group>"; };
 		1E303514218845B200D67C41 /* NumUniqueEmails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumUniqueEmails.swift; sourceTree = "<group>"; };
 		1E3035162188534000D67C41 /* JudgeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeCircle.swift; sourceTree = "<group>"; };
 		1E30351821885BF500D67C41 /* CustomSortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSortString.swift; sourceTree = "<group>"; };
@@ -418,6 +422,8 @@
 				1E30351A2189894300D67C41 /* RobotSim.swift */,
 				1E30351C218C21CD00D67C41 /* ReplaceWords.swift */,
 				1E30351E218C453F00D67C41 /* MinFallingPathSum.swift */,
+				1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */,
+				1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -530,6 +536,7 @@
 				1E994F3B20A1906C0055584D /* MaxProduct.swift in Sources */,
 				1ECAD9E91EE14688000DFC44 /* LengthLastWord.swift in Sources */,
 				1E69036F2179BE5300851362 /* FrogJump.swift in Sources */,
+				1E1DCC7321B11A8300B9560E /* DiStringMatch.swift in Sources */,
 				1E6903142165FCFC00851362 /* UniqueLetterString.swift in Sources */,
 				1ECAD9EB1EE14BF4000DFC44 /* ThirdMaxNumber.swift in Sources */,
 				1EDA01C31F20AB95001FF412 /* ZumaGame4.swift in Sources */,
@@ -583,6 +590,7 @@
 				1E6903102164C6D600851362 /* FindAndReplacePattern.swift in Sources */,
 				1E56E257211C351E00158102 /* ReorderedPowerOf2.swift in Sources */,
 				1E70F0DD206B8B450096790C /* TopFrequentElements.swift in Sources */,
+				1E1DC7F9219D54D600B9560E /* ReorderLogFiles.swift in Sources */,
 				1E75EABB20BC019A00E43CBB /* GoatLatin.swift in Sources */,
 				1E69030E2163470E00851362 /* HasGroupsSizeX.swift in Sources */,
 				1E30351D218C21CD00D67C41 /* ReplaceWords.swift in Sources */,

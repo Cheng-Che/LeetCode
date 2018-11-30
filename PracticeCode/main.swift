@@ -8,12 +8,11 @@
 import Foundation
 
 
-var input = [[2,6,4],[8,7,6],[4,1,4]]
+var input = "DIIDIID"
 
 
 
 
-
-let solution = MinFallingPathSum()
-let ans = solution.minFallingPathSum(input)
+let solution = DiStringMatch()
+let ans = solution.diStringMatch(input)
 print(ans)
