@@ -8,11 +8,11 @@
 import Foundation
 
 
-var input = "DIIDIID"
+var input = [17,13,11,2,3,5,7]
 
 
 
 
-let solution = DiStringMatch()
-let ans = solution.diStringMatch(input)
+let solution = DeckRevealedIncreasing()
+let ans = solution.deckRevealedIncreasing(input)
 print(ans)

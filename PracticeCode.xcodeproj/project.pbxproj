@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E1DC7F9219D54D600B9560E /* ReorderLogFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */; };
 		1E1DCC7321B11A8300B9560E /* DiStringMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */; };
+		1E1DCC7521B656BA00B9560E /* DeckRevealedIncreasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DCC7421B656B900B9560E /* DeckRevealedIncreasing.swift */; };
 		1E303515218845B200D67C41 /* NumUniqueEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E303514218845B200D67C41 /* NumUniqueEmails.swift */; };
 		1E3035172188534000D67C41 /* JudgeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3035162188534000D67C41 /* JudgeCircle.swift */; };
 		1E30351921885BF500D67C41 /* CustomSortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351821885BF500D67C41 /* CustomSortString.swift */; };
@@ -147,6 +148,7 @@
 /* Begin PBXFileReference section */
 		1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderLogFiles.swift; sourceTree = "<group>"; };
 		1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiStringMatch.swift; sourceTree = "<group>"; };
+		1E1DCC7421B656B900B9560E /* DeckRevealedIncreasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckRevealedIncreasing.swift; sourceTree = "<group>"; };
 		1E303514218845B200D67C41 /* NumUniqueEmails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumUniqueEmails.swift; sourceTree = "<group>"; };
 		1E3035162188534000D67C41 /* JudgeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeCircle.swift; sourceTree = "<group>"; };
 		1E30351821885BF500D67C41 /* CustomSortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSortString.swift; sourceTree = "<group>"; };
@@ -424,6 +426,7 @@
 				1E30351E218C453F00D67C41 /* MinFallingPathSum.swift */,
 				1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */,
 				1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */,
+				1E1DCC7421B656B900B9560E /* DeckRevealedIncreasing.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				1ED54A8920CFAA8A00DC4A99 /* RotateImage.swift in Sources */,
 				1EE8F675208DB49F003A2390 /* NumRabbits.swift in Sources */,
 				1E7AADAE1F2725E4000BD3C3 /* RemoveElement.swift in Sources */,
+				1E1DCC7521B656BA00B9560E /* DeckRevealedIncreasing.swift in Sources */,
 				1E70F0D52069F7720096790C /* DetectCapitalUse.swift in Sources */,
 				1E7AADB21F283C96000BD3C3 /* ArrangingCoins.swift in Sources */,
 				1E994F3920A04E650055584D /* MinimumTime.swift in Sources */,
