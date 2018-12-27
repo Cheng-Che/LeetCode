@@ -10,6 +10,7 @@
 		1E1DC7F9219D54D600B9560E /* ReorderLogFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */; };
 		1E1DCC7321B11A8300B9560E /* DiStringMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */; };
 		1E1DCC7521B656BA00B9560E /* DeckRevealedIncreasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DCC7421B656B900B9560E /* DeckRevealedIncreasing.swift */; };
+		1E1DCCB021D4C0A000B9560E /* IsAlienSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DCCAF21D4C0A000B9560E /* IsAlienSorted.swift */; };
 		1E303515218845B200D67C41 /* NumUniqueEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E303514218845B200D67C41 /* NumUniqueEmails.swift */; };
 		1E3035172188534000D67C41 /* JudgeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3035162188534000D67C41 /* JudgeCircle.swift */; };
 		1E30351921885BF500D67C41 /* CustomSortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30351821885BF500D67C41 /* CustomSortString.swift */; };
@@ -149,6 +150,7 @@
 		1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderLogFiles.swift; sourceTree = "<group>"; };
 		1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiStringMatch.swift; sourceTree = "<group>"; };
 		1E1DCC7421B656B900B9560E /* DeckRevealedIncreasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckRevealedIncreasing.swift; sourceTree = "<group>"; };
+		1E1DCCAF21D4C0A000B9560E /* IsAlienSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAlienSorted.swift; sourceTree = "<group>"; };
 		1E303514218845B200D67C41 /* NumUniqueEmails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumUniqueEmails.swift; sourceTree = "<group>"; };
 		1E3035162188534000D67C41 /* JudgeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeCircle.swift; sourceTree = "<group>"; };
 		1E30351821885BF500D67C41 /* CustomSortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSortString.swift; sourceTree = "<group>"; };
@@ -427,6 +429,7 @@
 				1E1DC7F8219D54D600B9560E /* ReorderLogFiles.swift */,
 				1E1DCC7221B11A8300B9560E /* DiStringMatch.swift */,
 				1E1DCC7421B656B900B9560E /* DeckRevealedIncreasing.swift */,
+				1E1DCCAF21D4C0A000B9560E /* IsAlienSorted.swift */,
 			);
 			path = PracticeCode;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				1E70F0D32068C85E0096790C /* MaxAreaIsland.swift in Sources */,
 				1EB909A81EAF2C7900A43CE1 /* TwoSum.swift in Sources */,
 				1E7402D81EB83F1B00E1F0D6 /* MoveZeros.swift in Sources */,
+				1E1DCCB021D4C0A000B9560E /* IsAlienSorted.swift in Sources */,
 				1E75EAB920BBE4D000E43CBB /* ToeplitzMatrix.swift in Sources */,
 				1EE8F649207CBE10003A2390 /* CanConstruct.swift in Sources */,
 				1EF8512C2181BBE30059B2C4 /* GroupAnagrams.swift in Sources */,
